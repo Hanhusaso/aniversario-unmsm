@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import CalendarioIcon from './icons/CalendarioIcon';
 import DetalleDerecha from './icons/DetalleDerecha';
 import MapIcon from './icons/MapIcon';
-import RemembranzaIcon from './icons/RemembranzaIcon';
 
 import RemembranzaButton from './buttons/RemembranzaButton';
 import EnVivoButton from './buttons/EnVivoButton';
 import CalendarButton from './buttons/CalendarButton';
 import AgendaIcon from './icons/AgendaIcon';
+import FlechaAbajo from './icons/FlechaAbajo';
 
 export const Programa = () => {
+	const [verCompleto, setVerCompleto] = useState(false);
 	return (
 		<>
 			<div className="bg-azulOscuro">
@@ -28,11 +28,10 @@ export const Programa = () => {
 					</div>
 				</div>
 			</div>
-			{/* día 1 */}
+
 			<div className="bg-gris pt-12 pb-8 text-verdeClaro">
 				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
 						<h1 className="col-span-2 mb-5 font-bold text-verdeOscuro flex flex-row">
 							<AgendaIcon className="mr-2" />
 							Día 1 | Lunes 9 de mayo
@@ -85,7 +84,6 @@ export const Programa = () => {
 							</div>
 							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px] mb-11"></div>
 						</div>
-						{/* Evento 2*/}
 						<p className="text-rojo font-semibold text-sm">
 							16:00 horas
 						</p>
@@ -113,7 +111,6 @@ export const Programa = () => {
 							</div>
 							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
 						</div>
-						{/* Evento 3 */}
 						<p className="text-rojo font-semibold text-sm mt-7">
 							17:00 horas
 						</p>
@@ -128,25 +125,16 @@ export const Programa = () => {
 								San Marcos, Av. Nicolás de Piérola 1222.
 							</p>
 							<div className="flex flex-row justify-end">
-								<a
-									target="_blank"
-									href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=Mjhmczk3dHVzaGM2ZzF1YjFlYjZqNmM5ODQgY18zZnMyMDJ0ZDMzM3E4ODUxNnBlNzM3N2lqa0Bn&amp;tmsrc=c_3fs202td333q88516pe7377ijk%40group.calendar.google.com">
-									<img
-										border="0"
-										src="https://www.google.com/calendar/images/ext/gc_button1_es.gif"
-									/>
-								</a>
 								<CalendarButton />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			{/* día 2 */}
+
 			<div className="bg-gris pb-8 text-verdeClaro">
 				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
 						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
 							<AgendaIcon className="mr-2" />
 							Día 2 | Martes 10 de mayo
@@ -154,8 +142,6 @@ export const Programa = () => {
 						<p className="col-span-2 mb-4 font-semibold">
 							Conferencias magistrales
 						</p>
-
-						{/* Evento 1*/}
 						<p className="text-rojo font-semibold text-sm">
 							16:00 horas
 						</p>
@@ -189,7 +175,6 @@ export const Programa = () => {
 							</div>
 							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
 						</div>
-						{/* Evento 3 */}
 						<p className="text-rojo font-semibold text-sm mt-7">
 							14:00 horas
 						</p>
@@ -209,236 +194,243 @@ export const Programa = () => {
 					</div>
 				</div>
 			</div>
-			{/* día 3 */}
-			<div className="bg-gris pb-8 text-verdeClaro">
-				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
-						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
-							<AgendaIcon className="mr-2" />
-							Día 3 | Miércoles 11 de mayo
-						</h1>
-						{/* Evento 2*/}
-						<p className="text-rojo font-semibold text-sm">
-							12:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
-								Gran Pasacalle Sanmarquino Interfacultades
-							</h1>
 
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" /> Inicio: Plaza Fray
-								Tomás de San Martín, Ciudad Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 3 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							14:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								XXIV Festival de Folklore Interfacultades de
-								Música y Danza. Promoción del talento artístico
-								en diversos géneros.
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Plaza Fray Tomás de San Martín, Ciudad
-								Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 4 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							14:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								Serenata por el 471.° aniversario de la UNMSM
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Plaza Fray Tomás de San Martín, Ciudad
-								Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-						</div>
-					</div>
+			{!verCompleto && (
+				<div
+					className="bg-gris pb-8 text-verdeClaro flex flex-col items-center justify-center cursor-pointer"
+					onClick={() => setVerCompleto(!verCompleto)}>
+					<p className="text-rojo font-semibold hover:brightness-150">
+						Clic aquí para conocer todas las actividades
+					</p>
+					<FlechaAbajo />
 				</div>
-			</div>
-			{/* día 4 */}
-			<div className="bg-gris pb-8 text-verdeClaro">
-				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
-						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
-							<AgendaIcon className="mr-2" />
-							Día 4 | Miércoles 12 de mayo
-						</h1>
-						{/* Evento 2*/}
-						<p className="text-rojo font-semibold text-sm">
-							09:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
-								Colocación de la ofrenda floral a la Virgen de
-								la Antigua.
-							</h1>
+			)}
 
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" /> Basílica Catedral
-								de Lima. Jirón Carabaya, Cercado de Lima.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 3 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							09:30 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								Misa de aniversario a cargo del Prior Johan
-								Leuridan Huysen en la Basílica del Convento de
-								Santo Domingo.
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Convento de Santo Domingo, Cercado de Lima.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 4 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							12:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								Sesión Solemne por el 471.° aniversario de la
-								UNMSM
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Salón General del Centro Cultural de San Marcos.
-								Av. Nicolás de Piérola 1222.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* día 5 */}
-			<div className="bg-gris pb-8 text-verdeClaro">
-				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
-						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
-							<AgendaIcon className="mr-2" />
-							Día 5 | Viernes 13 de mayo
-						</h1>
-						{/* Evento 2*/}
-						<p className="text-rojo font-semibold text-sm">
-							09:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
-								Final y premiación del Campeonato Interáreas de
-								Fútbol 7.
-							</h1>
+			{verCompleto && (
+				<>
+					<div id="dia3" className="bg-gris pb-8 text-verdeClaro">
+						<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
+							<div className="grid grid-cols-[130px_auto]">
+								<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
+									<AgendaIcon className="mr-2" />
+									Día 3 | Miércoles 11 de mayo
+								</h1>
+								<p className="text-rojo font-semibold text-sm">
+									12:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
+										Gran Pasacalle Sanmarquino
+										Interfacultades
+									</h1>
 
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" /> Campo auxiliar del
-								Estadio de la UNMSM, Ciudad Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 3 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							11:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								Homenaje por trayectoria académica a docentes
-								cesantes de las 20 facultades de la UNMSM.
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Plaza Fray Tomás de San Martín, Ciudad
-								Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-							<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
-						</div>
-						{/* Evento 4 */}
-						<p className="text-rojo font-semibold text-sm mt-7">
-							19:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
-								Noche de Gala Sanmarquina.
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" />
-								Auditorio Ella Dunbar Temple, Ciudad
-								Universitaria.
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* día 6 */}
-			<div className="bg-gris pb-8 text-verdeClaro">
-				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-					<div className="grid grid-cols-[130px_auto]">
-						{/* Evento 1*/}
-						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
-							<AgendaIcon className="mr-2" />
-							Día 6 | Miércoles 14 de mayo
-						</h1>
-						{/* Evento 2*/}
-						<p className="text-rojo font-semibold text-sm">
-							09:00 horas
-						</p>
-						<div className="text-sm">
-							<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
-								Acción de salud comunitaria de la UNMSM.
-							</h1>
-							<p className="text-xs flex flex-row font-semibold">
-								<MapIcon className="mr-2" /> San Juan de
-								Lurigancho
-							</p>
-							<div className="flex flex-row justify-end">
-								<CalendarButton />
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" /> Inicio:
+										Plaza Fray Tomás de San Martín, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								<p className="text-rojo font-semibold text-sm mt-7">
+									14:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										XXIV Festival de Folklore
+										Interfacultades de Música y Danza.
+										Promoción del talento artístico en
+										diversos géneros.
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Plaza Fray Tomás de San Martín, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								<p className="text-rojo font-semibold text-sm mt-7">
+									14:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										Serenata por el 471.° aniversario de la
+										UNMSM
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Plaza Fray Tomás de San Martín, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+					<div id="dia4" className="bg-gris pb-8 text-verdeClaro">
+						<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
+							<div className="grid grid-cols-[130px_auto]">
+								<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
+									<AgendaIcon className="mr-2" />
+									Día 4 | Miércoles 12 de mayo
+								</h1>
+								<p className="text-rojo font-semibold text-sm">
+									09:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
+										Colocación de la ofrenda floral a la
+										Virgen de la Antigua.
+									</h1>
+
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" /> Basílica
+										Catedral de Lima. Jirón Carabaya,
+										Cercado de Lima.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								<p className="text-rojo font-semibold text-sm mt-7">
+									09:30 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										Misa de aniversario a cargo del Prior
+										Johan Leuridan Huysen en la Basílica del
+										Convento de Santo Domingo.
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Convento de Santo Domingo, Cercado de
+										Lima.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								{/* Evento 4 */}
+								<p className="text-rojo font-semibold text-sm mt-7">
+									12:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										Sesión Solemne por el 471.° aniversario
+										de la UNMSM
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Salón General del Centro Cultural de San
+										Marcos. Av. Nicolás de Piérola 1222.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="dia5" className="bg-gris pb-8 text-verdeClaro">
+						<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
+							<div className="grid grid-cols-[130px_auto]">
+								<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
+									<AgendaIcon className="mr-2" />
+									Día 5 | Viernes 13 de mayo
+								</h1>
+								<p className="text-rojo font-semibold text-sm">
+									09:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
+										Final y premiación del Campeonato
+										Interáreas de Fútbol 7.
+									</h1>
+
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" /> Campo
+										auxiliar del Estadio de la UNMSM, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								<p className="text-rojo font-semibold text-sm mt-7">
+									11:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										Homenaje por trayectoria académica a
+										docentes cesantes de las 20 facultades
+										de la UNMSM.
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Plaza Fray Tomás de San Martín, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+									<div className="h-[1px] bg-verdeClaroTransparent mt-7 blur-[2px]"></div>
+								</div>
+								<p className="text-rojo font-semibold text-sm mt-7">
+									19:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro mt-7">
+										Noche de Gala Sanmarquina.
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" />
+										Auditorio Ella Dunbar Temple, Ciudad
+										Universitaria.
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="dia6" className="bg-gris pb-8 text-verdeClaro">
+						<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
+							<div className="grid grid-cols-[130px_auto]">
+								<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
+									<AgendaIcon className="mr-2" />
+									Día 6 | Miércoles 14 de mayo
+								</h1>
+								<p className="text-rojo font-semibold text-sm">
+									09:00 horas
+								</p>
+								<div className="text-sm">
+									<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
+										Acción de salud comunitaria de la UNMSM.
+									</h1>
+									<p className="text-xs flex flex-row font-semibold">
+										<MapIcon className="mr-2" /> San Juan de
+										Lurigancho
+									</p>
+									<div className="flex flex-row justify-end">
+										<CalendarButton />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</>
+			)}
 		</>
 	);
 };
