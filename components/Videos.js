@@ -22,43 +22,24 @@ export const Videos = () => {
 				Videos de aniversario
 			</h2>
 			<ul className="flex items-center justify-center mb-4">
-				<li
-					onClick={handleActivo}
-					className={
-						activo
-							? 'cursor-pointer bg-azulOscuro text-white font-semibold  py-1 px-2 mx-2  rounded'
-							: 'cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded'
-					}
-				>
+				<li className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded">
 					Todos
 				</li>
 				<li
 					onClick={handleActivo}
-					className={
-						activo
-							? 'cursor-pointer bg-azulOscuro text-white font-semibold  py-1 px-2 mx-2  rounded'
-							: 'cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded'
-					}
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
 				>
 					Sedes
 				</li>
 				<li
 					onClick={handleActivo}
-					className={
-						activo
-							? 'cursor-pointer bg-azulOscuro text-white font-semibold  py-1 px-2 mx-2  rounded'
-							: 'cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded'
-					}
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
 				>
 					Institucionales
 				</li>
 				<li
 					onClick={handleActivo}
-					className={
-						activo
-							? 'cursor-pointer bg-azulOscuro text-white font-semibold  py-1 px-2 mx-2  rounded'
-							: 'cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded'
-					}
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
 				>
 					Miscelánea
 				</li>
