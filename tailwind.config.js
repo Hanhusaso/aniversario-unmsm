@@ -4,7 +4,15 @@ module.exports = {
 		'./components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				lato: '"Lato",sans-serif',
+				adelleBold: 'Adelle-bold',
+				adelleExtraBold: 'Adelle-ExtraBold',
+				adelleSemiBold: 'Adelle-SemiBold',
+				adelleHeavy: 'Adelle-Heavy',
+			},
+		},
 		colors: {
 			azulOscuro: '#191D29',
 			blanco: '#FFFFFF',
@@ -14,6 +22,7 @@ module.exports = {
 			verdeOscuro: '#3A464F',
 			verdeClaro: '#54626C',
 			verdeClaroTransparent: 'rgba(84, 98, 108, 0.2)',
+			grisOscuroTitulos: '#3A464F',
 		},
 	},
 	plugins: [],

@@ -1,0 +1,23 @@
+@font-face {
+	font-family: Adelle-bold;
+	src: url('https://posgrado-unmsm.s3.amazonaws.com/Adelle_Bold_db15cd5a21.woff');
+}
+
+@font-face {
+	font-family: Adelle-ExtraBold;
+	src: url('https://posgrado-unmsm.s3.sa-east-1.amazonaws.com/Adelle_Extra_Bold_1b7356badd.woff');
+}
+
+@font-face {
+	font-family: Adelle-SemiBold;
+	src: url('https://posgrado-unmsm.s3.sa-east-1.amazonaws.com/Adelle_Semi_Bold_97419c274e.woff');
+}
+@font-face {
+	font-family: Adelle-Heavy;
+	src: url('https://posgrado-unmsm.s3.sa-east-1.amazonaws.com/Adelle_Heavy_e3e198d232.ttf');
+	font-weight: 900;
+}
+@font-face {
+	font-family: Lato;
+	src: url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+}
