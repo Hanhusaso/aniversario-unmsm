@@ -1,0 +1,68 @@
+const saludos = [
+	{
+		id: 1,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 2,
+		nombre: 'Luis Castillo',
+		biodata: 'Ing. Electrónico',
+		cita: 'Un pequeño Perú.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 3,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 4,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 5,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 6,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 7,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+	{
+		id: 8,
+		nombre: 'Ruth Shady',
+		biodata: 'Arqueóloga e Investigadora',
+		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
+		video: '',
+	},
+];
+
+export default saludos;
