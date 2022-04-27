@@ -1,0 +1,14 @@
+/* .swiper-button-next {
+	background-color: red;
+	right: -12px !important;
+	z-index: 10 !important;
+}
+
+.swiper-button-prev {
+	background-color: red;
+	left: 0px !important;
+} */
+
+.swiper {
+	position: static !important;
+}

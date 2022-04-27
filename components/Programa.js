@@ -29,7 +29,7 @@ export const Programa = () => {
 				</div>
 			</div>
 
-			<div className="bg-gris pt-12 pb-8 text-verdeClaro">
+			<div id="dia1" className="bg-gris pt-12 pb-8 text-verdeClaro">
 				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 					<div className="grid grid-cols-[130px_auto]">
 						<h1 className="col-span-2 mb-5 font-bold text-verdeOscuro flex flex-row">
@@ -132,7 +132,7 @@ export const Programa = () => {
 				</div>
 			</div>
 
-			<div className="bg-gris pb-8 text-verdeClaro">
+			<div id="dia2" className="bg-gris pb-8 text-verdeClaro">
 				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 					<div className="grid grid-cols-[130px_auto]">
 						<h1 className="mb-4 col-span-2 font-bold text-verdeOscuro flex flex-row">
