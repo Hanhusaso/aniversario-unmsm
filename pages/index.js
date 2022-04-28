@@ -8,13 +8,15 @@ import { Videos } from '../components/Videos';
 
 export default function Home() {
 	return (
-		<main>
-			<Interactivo />
-			<Programa />
-			<GaleriaSaludos />
-			<PersonajesIlustres />
-			<Videos />
-			<footer></footer>
-		</main>
+		<>
+			<main className="font-lato">
+				<Interactivo />
+				<Programa />
+				<GaleriaSaludos />
+				<PersonajesIlustres />
+				<Videos />
+				<footer></footer>
+			</main>
+		</>
 	);
 }

@@ -2,7 +2,10 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ['biologia-unmsm.s3.us-east-2.amazonaws.com'],
+		domains: [
+			'biologia-unmsm.s3.us-east-2.amazonaws.com',
+			'https://afroperuanos.s3.us-east-2.amazonaws.com',
+		],
 	},
 };
 
