@@ -86,6 +86,7 @@ export const PersonajesIlustres = () => {
 							layout="responsive"
 							draggable={false}
 							quality={100}
+							className="brightness-125"
 						/>
 					</div>
 					<div className="w-[42%] ml-8 text-blanco">
