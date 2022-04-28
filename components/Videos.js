@@ -13,7 +13,7 @@ export const Videos = () => {
 	const [modalData, setModalData] = useState(null);
 
 	const tipoVideos = () => {
-		console.log('hola');
+		// console.log('hola');
 	};
 
 	return (
@@ -27,20 +27,17 @@ export const Videos = () => {
 				</li>
 				<li
 					onClick={handleActivo}
-					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
-				>
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded">
 					Sedes
 				</li>
 				<li
 					onClick={handleActivo}
-					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
-				>
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded">
 					Institucionales
 				</li>
 				<li
 					onClick={handleActivo}
-					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded"
-				>
+					className="cursor-pointer bg-transparent hover:bg-azulOscuro hover:text-white text-azulOscuro font-semibold  py-1 px-2 mx-2 border border-azulOscuro hover:border-transparent rounded">
 					Miscelánea
 				</li>
 			</ul>
@@ -59,8 +56,7 @@ export const Videos = () => {
 						quality={100}
 						width={673}
 						height={362}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -88,8 +84,7 @@ export const Videos = () => {
 						quality={100}
 						width={324}
 						height={167}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -121,8 +116,7 @@ export const Videos = () => {
 						quality={100}
 						width={324}
 						height={167}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -134,8 +128,7 @@ export const Videos = () => {
 						quality={100}
 						width={324}
 						height={167}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -147,8 +140,7 @@ export const Videos = () => {
 						quality={100}
 						width={673}
 						height={362}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -160,8 +152,7 @@ export const Videos = () => {
 						quality={100}
 						width={324}
 						height={167}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
