@@ -4,7 +4,7 @@ import { Interactivo } from '../components/Interactivo';
 import { Programa } from '../components/Programa';
 import { GaleriaSaludos } from '../components/GaleriaSaludos';
 import { PersonajesIlustres } from '../components/PersonajesIlustres';
-import { Videos } from '../components/Videos';
+import { Videos } from '../components/videosAniversario/Videos';
 
 export default function Home() {
 	return (
