@@ -18,7 +18,7 @@ export const Programa = () => {
 			<div className="bg-azulOscuro">
 				<div className="container mx-auto">
 					<div className="flex flex-row justify-start items-center h-36">
-						<p className="font-black text-amarillo text-6xl mr-16 leading-none font-adelleHeavy -translate-y-1">
+						<p className="font-adelleBold font-semibold text-amarillo text-5xl mr-16 -translate-y-1">
 							Programa
 						</p>
 						<p className="text-blanco font-semibold text-xl">

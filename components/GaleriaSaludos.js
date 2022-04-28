@@ -20,7 +20,7 @@ export const GaleriaSaludos = () => {
 	return (
 		<div className="bg-blanco pt-[3.625rem] pb-8">
 			<div className="flex flex-col items-center justify-center">
-				<h1 className="text-amarillo font-bold text-5xl pb-1">
+				<h1 className="text-amarillo font-adelleBold font-semibold text-5xl pb-1">
 					Galería de Saludos
 				</h1>
 				<p className="pb-8">
