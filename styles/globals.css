@@ -7,9 +7,5 @@
 
 @import './test';
 @import './galeriaSaludos';
-<<<<<<< HEAD
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
-@import './fonts';
-=======
 @import './animation.css';
->>>>>>> 329ebc6875da1237fc02f357b3529676dc4cd7af
+@import './fonts';

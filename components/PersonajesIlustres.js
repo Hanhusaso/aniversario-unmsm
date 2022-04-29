@@ -41,7 +41,7 @@ export const PersonajesIlustres = () => {
 			<div className="bg-gris">
 				<div className="container mx-auto relative">
 					<div className="grid grid-cols-10">
-						{personajesIlustresData.map((pers, index) => (
+						{personajes.map((pers, index) => (
 							<div
 								onClick={() => {
 									setPersonajeElegido(pers);

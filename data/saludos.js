@@ -2,7 +2,7 @@ const saludos = [
 	{
 		id: 1,
 		nombre: 'Mario Urbina Schmitt',
-		biodata: 'Paleontólogo e investigador del Museo de Historia Natural		',
+		biodata: 'Paleontólogo e investigador del Museo de Historia Natural',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_urbina_schmitt_unmsm_aniversario_545db1bc82.png?updated_at=2022-04-28T22:35:44.074Z',
 		video: '',

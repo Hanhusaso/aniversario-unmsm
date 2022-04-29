@@ -71,7 +71,7 @@ export const Videos = () => {
 							height={362}
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 						<PlayIcon
-							className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
 					</div>
 
@@ -103,7 +103,7 @@ export const Videos = () => {
 							draggable={false}
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 						<PlayIcon
-							className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
 					</div>
 
@@ -138,7 +138,7 @@ export const Videos = () => {
 						draggable={false}
 						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
-						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 				</div>
 				<div className="relative cursor-pointer col-span-1 row-span-1">
@@ -151,7 +151,7 @@ export const Videos = () => {
 						draggable={false}
 						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
-						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 				</div>
 				<div className="relative cursor-pointer col-span-2 row-span-2">
@@ -164,7 +164,7 @@ export const Videos = () => {
 						draggable={false}
 						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
-						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 				</div>
 				<div className="relative cursor-pointer col-span-1 row-span-1">
@@ -177,7 +177,7 @@ export const Videos = () => {
 						draggable={false}
 						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
-						className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 				</div>
 			</div>
