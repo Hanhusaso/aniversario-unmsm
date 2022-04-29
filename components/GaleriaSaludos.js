@@ -13,10 +13,14 @@ import SwiperButtonNext from './swiper/SwiperButtonNext';
 import SwiperButtonPrev from './swiper/SwiperButtonPrev';
 import ReferenciaIcon from './icons/ReferenciaIcon';
 import saludos from '../data/saludos';
+import { Modal } from './Modal';
+import ReactPlayer from 'react-player';
 
 export const GaleriaSaludos = () => {
 	const [count, setCount] = useState(0);
-	// const [referencia, setReferencia] = useState(saludos[0]);
+	const [estadoModal, setEstadoModal] = useState(false);
+	const [modalData, setModalData] = useState(null);
+
 	return (
 		<div className="bg-blanco pt-[3.625rem] pb-8">
 			<div className="flex flex-col items-center justify-center">
@@ -46,24 +50,31 @@ export const GaleriaSaludos = () => {
 						return (
 							<SwiperSlide key={saludo.id}>
 								{({ isActive }) => (
-									<div
-										className={`mx-auto relative cursor-pointer ${
-											!isActive &&
-											'px-[0.5625rem] translate-y-3'
-										} ${isActive && 'brightness-105'}`}>
-										<Image
-											src={saludo.img}
-											alt={saludo.nombre}
-											// objectFit="cover"
-											layout="responsive"
-											quality={100}
-											width={196}
-											height={240}
-										/>
-										<PlayIcon
-											className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
-										/>
-									</div>
+									<>
+										<div
+											onClick={() => {
+												setModalData(`${saludo.video}`);
+												setEstadoModal(true);
+											}}
+											className={`mx-auto relative cursor-pointer ${
+												!isActive &&
+												'px-[0.5625rem] translate-y-3'
+											} ${isActive && 'brightness-105'}`}
+										>
+											<Image
+												src={saludo.img}
+												alt={saludo.nombre}
+												// objectFit="cover"
+												layout="responsive"
+												quality={100}
+												width={196}
+												height={240}
+											/>
+											<PlayIcon
+												className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+											/>
+										</div>
+									</>
 								)}
 							</SwiperSlide>
 						);
@@ -73,6 +84,26 @@ export const GaleriaSaludos = () => {
 						max={saludos.length - 1}
 					/>
 				</Swiper>
+				<Modal estado={estadoModal} setEstado={setEstadoModal}>
+					{modalData &&
+						(estadoModal === true ? (
+							<ReactPlayer
+								controls
+								url={modalData}
+								width="100%"
+								height="100%"
+								playing={true}
+							/>
+						) : (
+							<ReactPlayer
+								controls
+								url={modalData}
+								width="100%"
+								height="100%"
+								playing={false}
+							/>
+						))}
+				</Modal>
 			</div>
 			<div className="flex flex-col items-center justify-center pt-4">
 				<ReferenciaIcon />

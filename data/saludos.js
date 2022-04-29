@@ -5,7 +5,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 2,
@@ -13,7 +13,7 @@ const saludos = [
 		biodata: 'Ing. Electrónico',
 		cita: 'Un pequeño Perú.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
 	},
 	{
 		id: 3,
@@ -21,7 +21,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 4,
@@ -29,7 +29,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
 	},
 	{
 		id: 5,
@@ -37,7 +37,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 6,
@@ -45,7 +45,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
 	},
 	{
 		id: 7,
@@ -53,7 +53,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 8,
@@ -61,7 +61,7 @@ const saludos = [
 		biodata: 'Arqueóloga e Investigadora',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png',
-		video: '',
+		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
 	},
 ];
 
