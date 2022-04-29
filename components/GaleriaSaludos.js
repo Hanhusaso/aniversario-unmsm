@@ -24,7 +24,7 @@ export const GaleriaSaludos = () => {
 	return (
 		<div className="bg-blanco pt-[3.625rem] pb-8">
 			<div className="flex flex-col items-center justify-center">
-				<h1 className="text-amarillo font-bold text-5xl pb-1">
+				<h1 className="text-amarillo font-adelleBold font-semibold text-5xl pb-1">
 					Galería de Saludos
 				</h1>
 				<p className="pb-8">
@@ -50,15 +50,17 @@ export const GaleriaSaludos = () => {
 						return (
 							<SwiperSlide key={saludo.id}>
 								{({ isActive }) => (
-									<>
+									<div
+										className="relative cursor-pointer"
+										onClick={() => {
+											setModalData(`${saludo.video}`);
+											setEstadoModal(true);
+										}}
+									>
 										<div
-											onClick={() => {
-												setModalData(`${saludo.video}`);
-												setEstadoModal(true);
-											}}
 											className={`mx-auto relative cursor-pointer ${
 												!isActive &&
-												'px-[0.5625rem] translate-y-3'
+												'px-[0.5625rem] translate-y-3 brightness-[0.5]'
 											} ${isActive && 'brightness-105'}`}
 										>
 											<Image
@@ -69,12 +71,27 @@ export const GaleriaSaludos = () => {
 												quality={100}
 												width={196}
 												height={240}
-											/>
-											<PlayIcon
-												className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+												className="w-full h-full"
 											/>
 										</div>
-									</>
+										<div className="font-medium absolute top-1/4 translate-y-5 text-center text-blanco w-full px-10">
+											<div className="flex justify-center w-full">
+												<PlayIcon
+													className={` fill-blanco`}
+												/>
+											</div>
+											{!isActive && (
+												<div className="line-clamp-4">
+													<p className="mt-2">
+														{saludo.nombre}
+													</p>
+													<p className="text-xs">
+														{saludo.biodata}
+													</p>
+												</div>
+											)}
+										</div>
+									</div>
 								)}
 							</SwiperSlide>
 						);

@@ -8,7 +8,7 @@ import { Videos } from '../components/videosAniversario/Videos';
 
 export default function Home() {
 	return (
-		<main>
+		<main className="font-lato">
 			<Interactivo />
 			<Programa />
 			<GaleriaSaludos />
@@ -40,7 +40,7 @@ export default function Home() {
 						<p>Presidente</p>
 					</div>
 					<div className="text-center text-blanco">
-						<p className="bold mb-2">Miembros</p>
+						<p className="font-bold mb-2">Miembros</p>
 						<ul>
 							<li className="mb-2">
 								Dr. José Félix Palomino Manchego

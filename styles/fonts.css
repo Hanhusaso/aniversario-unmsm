@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Adelle-bold;
+	src: url('../fonts/Adelle-Bold.woff');
+}
+
+@font-face {
+	font-family: Adelle-ExtraBold;
+	src: url('../fonts/Adelle-ExtraBold.woff');
+}
+
+@font-face {
+	font-family: Adelle-SemiBold;
+	src: url('../fonts/Adelle-SemiBold.ttf');
+}
+@font-face {
+	font-family: Adelle-Heavy;
+	src: url('../fonts/Adelle-Heavy.woff');
+}
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/Lato-Regular.woff');
+}
