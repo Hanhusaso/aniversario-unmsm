@@ -1,8 +1,9 @@
 import React from 'react';
 
-const FlechaIzquierda = () => {
+const FlechaIzquierda = ({ className }) => {
 	return (
 		<svg
+			className={className}
 			width="10"
 			height="18"
 			viewBox="0 0 10 18"

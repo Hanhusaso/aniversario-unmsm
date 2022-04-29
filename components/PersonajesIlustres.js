@@ -97,7 +97,7 @@ export const PersonajesIlustres = () => {
 						</h1>
 						<p className="mt-9">
 							{personajeElegido.introduccion}
-							<span className="text-rojoclaro font-black ml-2 cursor-pointer">
+							<span className="text-rojoclaro font-black ml-2 cursor-pointer hover:brightness-200">
 								Leer más.
 							</span>
 						</p>
