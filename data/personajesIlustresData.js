@@ -20,7 +20,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_sinsombra_5db88faf75.png?updated_at=2022-04-28T17:38:45.596Z',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_sinsombra_5db88faf75.png?updated_at=2022-04-28T17:38:45.596Z',
-		desplazamiento: 'left-11',
+		desplazamiento: 'left-12',
 		slug: '',
 		introduccion: ' ois sdfogji ',
 		seleccionado: false,
@@ -31,7 +31,7 @@ const personajesIlustresData = [
 		apellidos: 'Vargas Lllosa',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_sinsombra_8eba4b19c2.png?updated_at=2022-04-28T17:38:44.238Z',
-		desplazamiento: 'left-9',
+		desplazamiento: 'left-11',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_sinsombra_8eba4b19c2.png?updated_at=2022-04-28T17:38:44.238Z',
@@ -45,7 +45,7 @@ const personajesIlustresData = [
 		apellidos: 'Dunbar Temple',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dumbar_sinsombra_113e65bbc5.png?updated_at=2022-04-28T17:38:44.181Z',
-		desplazamiento: 'left-7',
+		desplazamiento: 'left-11',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dumbar_sinsombra_113e65bbc5.png?updated_at=2022-04-28T17:38:44.181Z',
@@ -58,7 +58,7 @@ const personajesIlustresData = [
 		apellidos: 'Basadre',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_sinsombra_ef81b4a42d.png?updated_at=2022-04-28T17:38:44.289Z',
-		desplazamiento: 'left-6',
+		desplazamiento: 'left-12',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_sinsombra_ef81b4a42d.png?updated_at=2022-04-28T17:38:44.289Z',
@@ -71,7 +71,7 @@ const personajesIlustresData = [
 		apellidos: 'Aguilar',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_sinsombra_611d9e03c0.png?updated_at=2022-04-28T17:38:45.482Z',
-		desplazamiento: 'left-5',
+		desplazamiento: 'left-11',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_sinsombra_611d9e03c0.png?updated_at=2022-04-28T17:38:45.482Z',
@@ -84,7 +84,7 @@ const personajesIlustresData = [
 		apellidos: 'Shady',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruthsahdy_sinsombra_5e85750e7c.png?updated_at=2022-04-28T17:38:44.304Z',
-		desplazamiento: 'left-3',
+		desplazamiento: 'left-11',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruthsahdy_sinsombra_5e85750e7c.png?updated_at=2022-04-28T17:38:44.304Z',
@@ -97,7 +97,7 @@ const personajesIlustresData = [
 		apellidos: 'Porras Barrenechea',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_sinsombra_bbfa1a2a4e.png?updated_at=2022-04-28T17:38:45.544Z',
-		desplazamiento: 'left-3',
+		desplazamiento: 'left-12',
 		slug: '',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_sinsombra_bbfa1a2a4e.png?updated_at=2022-04-28T17:38:45.544Z',

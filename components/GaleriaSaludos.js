@@ -49,7 +49,7 @@ export const GaleriaSaludos = () => {
 									<div
 										className={`mx-auto relative cursor-pointer ${
 											!isActive &&
-											'px-[0.5625rem] translate-y-3'
+											'px-[0.5625rem] translate-y-3 brightness-[0.85]'
 										} ${isActive && 'brightness-105'}`}>
 										<Image
 											src={saludo.img}
@@ -59,9 +59,10 @@ export const GaleriaSaludos = () => {
 											quality={100}
 											width={196}
 											height={240}
+											className="w-full h-full"
 										/>
 										<PlayIcon
-											className={`absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+											className={`brightness-100 absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px] fill-blanco`}
 										/>
 									</div>
 								)}
