@@ -5,7 +5,7 @@ const saludos = [
 		biodata: 'Paleontólogo e investigador del Museo de Historia Natural',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_urbina_schmitt_unmsm_aniversario_545db1bc82.png?updated_at=2022-04-28T22:35:44.074Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Mario+Urbina+Schmitt.mp4',
 	},
 	{
 		id: 2,
@@ -13,7 +13,7 @@ const saludos = [
 		biodata: 'Director Ejecutuivo de la Red IDI',
 		cita: 'Un pequeño Perú.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/omar_del_carpio_unmsm_aniversario_3216fbe425.png?updated_at=2022-04-28T22:35:45.172Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Ing.+Omar+Del+Carpio+Rodr%C3%ADguez+-+Director+Ejecutivo+de+la+Red+Idi.mp4',
 	},
 	{
 		id: 3,
@@ -21,7 +21,7 @@ const saludos = [
 		biodata: 'Coordinador Archivo y Planoteca de Prolima',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_la_rosa_unmsm_aniversario_08363eb43b.png?updated_at=2022-04-28T22:35:43.945Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Historiador+Hugo+La+Rosa+Cordero+-+Egresado+EP+Historia+-+Facultad+de+Ciencias+Sociales.mp4',
 	},
 	{
 		id: 4,
@@ -29,7 +29,7 @@ const saludos = [
 		biodata: 'Doctor en Arqueología e Historia',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/federico_kauffman_unmsm_aniversario_82dc17b61b.png?updated_at=2022-04-28T22:35:43.859Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Federico+Kauffman+Doig+-+Doctor+en+Arqueolog%C3%ADa+e+Historia.mp4',
 	},
 	{
 		id: 5,
@@ -37,7 +37,7 @@ const saludos = [
 		biodata: 'Presidente del Concytec',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/benjamin_marticorena_unmsm_aniversario_383c15e1d8.png?updated_at=2022-04-28T22:35:43.751Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Benjam%C3%ADn+Marticorena+Castillo.mp4',
 	},
 	{
 		id: 6,
@@ -46,7 +46,7 @@ const saludos = [
 			'Alcalde de San Isidro - Egresado de la Facultad de Medicina San Fernando',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/augusto_caceres_unmsm_aniversario_a8d5a97024.png?updated_at=2022-04-28T22:35:44.055Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Augusto+C%C3%A1ceres+Vi%C3%B1as.mp4',
 	},
 	{
 		id: 7,
@@ -55,7 +55,7 @@ const saludos = [
 			'Jefe del laboratorio de Biología Molecular y del Serpentario "Oswaldo Meneses"',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/armando_yarleque_unmsm_aniversario_d569189117.png?updated_at=2022-04-28T22:35:45.269Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Armando+Yarlequ%C3%A9+Chocas+-+Jefe+del+Laboratorio+de+Biolog%C3%ADa+Molecular+y+del+Serpentario.mp4',
 	},
 	{
 		id: 8,
@@ -63,7 +63,7 @@ const saludos = [
 		biodata: 'DT de vóley en el Club Alianza Lima',
 		cita: 'Nunca me arrepentiré de entrar a San Marcos, es mi segunda casa.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carlos_aparicio_unmsm_aniversario_bb1ad7a890.png?updated_at=2022-04-28T22:35:44.043Z',
-		video: 'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Carlos+Aparicio+Vedia.mp4',
 	},
 ];
 
