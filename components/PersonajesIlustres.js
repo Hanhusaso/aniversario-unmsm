@@ -107,17 +107,19 @@ export const PersonajesIlustres = () => {
 								Leer más.
 							</span>
 						</p>
-						<button
-							onClick={() => {
-								setModalData(
-									'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v'
-								);
-								setEstadoModal(true);
-							}}
-							className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
-						>
-							<Triangulo className="mr-3" /> Ver saludo
-						</button>
+						{personajeElegido.videoSaludo !== '' && (
+							<button
+								onClick={() => {
+									setModalData(
+										`${personajeElegido.videoSaludo}`
+									);
+									setEstadoModal(true);
+								}}
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
+							>
+								<Triangulo className="mr-3" /> Ver saludo
+							</button>
+						)}
 					</div>
 				</div>
 			</div>
