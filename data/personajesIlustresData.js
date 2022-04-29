@@ -6,14 +6,13 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carrion_sinsombra_ec5efa91aa.png?updated_at=2022-04-28T17:38:44.204Z',
 		desplazamiento: '3rem',
-		slug: '',
+		slug: 'alcides-carrion',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carrion_grande_e0d3747480.png?updated_at=2022-04-29T15:57:00.123Z',
 		introduccion:
 			'Nacida en Lima, el 10 de junio de 1918, la destacada historiadora y abogada fue la primera en ocupar una cátedra universitaria en el Perú, además de inaugurar la participación de la mujer en la Academia Nacional de Historia, en la junta directiva del Colegio de Abogados de Lima y en la Corte Superior de Lima.',
 		seleccionado: false,
-		videoSaludo:
-			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		videoSaludo: '',
 	},
 	{
 		id: 1,
@@ -24,7 +23,7 @@ const personajesIlustresData = [
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_grande_205fa46785.png?updated_at=2022-04-29T15:57:01.910Z',
 		desplazamiento: '46px',
-		slug: '',
+		slug: 'alarco',
 		introduccion:
 			'Nacida en noviembre de 1911, fue pionera en la fundación de coros juveniles y como musicóloga dedicó su vida a estudiar el folclore y melodías antiguas de la costa y de la sierra; perfeccionando sus conocimientos de música en conservatorios de Chile, Francia y España.',
 		seleccionado: false,
@@ -37,7 +36,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_sinsombra_8eba4b19c2.png?updated_at=2022-04-28T17:38:44.238Z',
 		desplazamiento: '40px',
-		slug: '',
+		slug: 'vargas-llosa',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_grande_38c1ae6531.png?updated_at=2022-04-29T15:57:00.759Z',
 		introduccion:
@@ -52,14 +51,13 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dumbar_sinsombra_113e65bbc5.png?updated_at=2022-04-28T17:38:44.181Z',
 		desplazamiento: '30px',
-		slug: '',
+		slug: 'dumbar-temple',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dumbar_grande_86eeaa1cdb.png?updated_at=2022-04-29T15:57:00.083Z',
 		introduccion:
 			'Nacida en Lima, el 10 de junio de 1918, la destacada historiadora y abogada fue la primera en ocupar una cátedra universitaria en el Perú, además de inaugurar la participación de la mujer en la Academia Nacional de Historia, en la junta directiva del Colegio de Abogados de Lima y en la Corte Superior de Lima.',
 		seleccionado: false,
-		videoSaludo:
-			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		videoSaludo: '',
 	},
 	{
 		id: 4,
@@ -68,7 +66,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_sinsombra_ef81b4a42d.png?updated_at=2022-04-28T17:38:44.289Z',
 		desplazamiento: '27px',
-		slug: '',
+		slug: 'basadre',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_grande_43b53e1704.png?updated_at=2022-04-29T15:57:00.341Z',
 		introduccion:
@@ -83,14 +81,13 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_sinsombra_611d9e03c0.png?updated_at=2022-04-28T17:38:45.482Z',
 		desplazamiento: '24px',
-		slug: '',
+		slug: 'aguilar',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_grande_14b667afe5.png?updated_at=2022-04-29T15:57:00.646Z',
 		introduccion:
 			'Nacida en la ciudad de Jauja, el 20 de junio de 1938, la doctora Aguilar ingresó en 1958 a la Escuela de Matemáticas de la UNMSM, para luego, viajar a la Argentina a estudiar la carrera de Astronomía en el Observatorio de Astronomía y Geofísica de la Universidad Nacional de La Plata, debido a que en el Perú no existía esa especialidad profesional, especializándose en espectroscopia estelar, atmósferas estelares y estrellas variables.',
 		seleccionado: false,
-		videoSaludo:
-			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
+		videoSaludo: '',
 	},
 	{
 		id: 6,
@@ -99,7 +96,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruthsahdy_sinsombra_5e85750e7c.png?updated_at=2022-04-28T17:38:44.304Z',
 		desplazamiento: '15px',
-		slug: '',
+		slug: 'shady',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruthsahdy_grande_c9156bfe17.png?updated_at=2022-04-29T15:57:01.802Z',
 		introduccion:
@@ -114,7 +111,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_sinsombra_bbfa1a2a4e.png?updated_at=2022-04-28T17:38:45.544Z',
 		desplazamiento: '13px',
-		slug: '',
+		slug: 'porras-barrenechea',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_grande_9f3b806b5e.png?updated_at=2022-04-29T15:57:01.644Z',
 		introduccion:
@@ -129,7 +126,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/julo_c_tello_sinsombra_5aa84a739b.png?updated_at=2022-04-28T17:38:44.207Z',
 		desplazamiento: '-0.5rem',
-		slug: '',
+		slug: 'c-tello',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/julo_c_tello_grande_dc893ba5a0.png?updated_at=2022-04-29T15:57:00.421Z',
 		introduccion:
@@ -144,7 +141,7 @@ const personajesIlustresData = [
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_atunez_sinsombra_be0bfe3a22.png?updated_at=2022-04-28T17:38:45.556Z',
 		desplazamiento: '-3rem',
-		slug: '',
+		slug: 'antunez-de-mayolo',
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_atunez_grande_2d20868a88.png?updated_at=2022-04-29T15:57:02.162Z',
 		introduccion:

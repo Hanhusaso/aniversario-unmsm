@@ -88,6 +88,9 @@ const Personaje = () => {
 								background:
 									'linear-gradient(180deg, rgba(25, 29, 41, 0) 0%, rgba(25, 29, 41, 0.185825) 14.54%, rgba(25, 29, 41, 0.354756) 27.76%, rgba(25, 29, 41, 0.59865) 53.54%, rgba(25, 29, 41, 0.880677) 77.99%, #191D29 100%)',
 							}}></div>
+						<p className="absolute bottom-5 left-20 text-xs">
+							Fuente: <span>Vanity Fair</span>
+						</p>
 					</div>
 				</div>
 				<div className="cursor-pointer">

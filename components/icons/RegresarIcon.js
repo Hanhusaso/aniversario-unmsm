@@ -12,9 +12,9 @@ const RegresarIcon = ({ className }) => {
 			<path
 				d="M8.26465 2.38489L2.26465 9.38488L8.26465 16.3849"
 				stroke="white"
-				stroke-width="3"
-				stroke-linecap="round"
-				stroke-linejoin="round"
+				strokeWidth="3"
+				strokeLinecap="round"
+				strokeLinejoin="round"
 			/>
 		</svg>
 	);
