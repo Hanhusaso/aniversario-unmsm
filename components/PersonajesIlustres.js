@@ -61,9 +61,8 @@ export const PersonajesIlustres = () => {
 								className={`${
 									personajes[index].seleccionado &&
 									'opacity-50'
-								} relative cursor-pointer col-span-1 hover:opacity-50 ${
-									pers.desplazamiento
-								}`}>
+								} relative cursor-pointer col-span-1 hover:opacity-50`}
+								style={{ left: pers.desplazamiento }}>
 								<Image
 									src={pers.imagenMiniatura}
 									width={230}
