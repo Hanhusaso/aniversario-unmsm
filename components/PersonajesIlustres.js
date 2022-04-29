@@ -2,8 +2,13 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
+import { Modal } from './Modal';
+import ReactPlayer from 'react-player';
 
 export const PersonajesIlustres = () => {
+	const [estadoModal, setEstadoModal] = useState(false);
+	const [modalData, setModalData] = useState(null);
+
 	const [personajeElegido, setPersonajeElegido] = useState(
 		personajesIlustresData[2]
 	);
@@ -62,7 +67,8 @@ export const PersonajesIlustres = () => {
 									personajes[index].seleccionado &&
 									'opacity-50'
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
-								style={{ left: pers.desplazamiento }}>
+								style={{ left: pers.desplazamiento }}
+							>
 								<Image
 									src={pers.imagenMiniatura}
 									width={230}
@@ -102,13 +108,41 @@ export const PersonajesIlustres = () => {
 							</span>
 						</p>
 						{personajeElegido.videoSaludo !== '' && (
-							<button className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
+							<button
+								onClick={() => {
+									setModalData(
+										`${personajeElegido.videoSaludo}`
+									);
+									setEstadoModal(true);
+								}}
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
+							>
 								<Triangulo className="mr-3" /> Ver saludo
 							</button>
 						)}
 					</div>
 				</div>
 			</div>
+			<Modal estado={estadoModal} setEstado={setEstadoModal}>
+				{modalData &&
+					(estadoModal === true ? (
+						<ReactPlayer
+							controls
+							url={modalData}
+							width="100%"
+							height="100%"
+							playing={true}
+						/>
+					) : (
+						<ReactPlayer
+							controls
+							url={modalData}
+							width="100%"
+							height="100%"
+							playing={false}
+						/>
+					))}
+			</Modal>
 		</>
 	);
 };
