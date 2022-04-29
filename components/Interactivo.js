@@ -3,27 +3,35 @@ import React from 'react';
 export const Interactivo = () => {
 	return (
 		<>
-			<section className="interactivo relative bg-rojo bg-[url('/img/fondo/fondo-rojo-home.png')] bg-[length:100%]">
+			<section className="interactivo relative pb-10 bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
 				<div className="">
 					{/* <div className=""> */}
-					<div className="info-page absolute top-14 left-1/2 -translate-x-1/2 text-center text-blanco">
+					<div className="info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
 						<img
+							className="mb-4"
 							src="/img/logo-unmsm-landing-aniversario.png"
 							alt=""
 						/>
-						<p>
-							<span>471.°</span>
-							<br />
-							<span>Aniversario</span>
+
+						<p className="font-adelleHeavy font-semibold text-[78px] leading-none">
+							471.°
 						</p>
-						<p>¡San Marcos es el Perú!</p>
-						<p>12 de mayo</p>
-						<p>1551-2022</p>
+
+						<p className="font-adelleBold text-2xl mb-5">
+							Aniversario
+						</p>
+
+						<p className="italic text-xl mb-4">
+							¡San Marcos es el Perú!
+						</p>
+						<p className="text-lg">12 de mayo</p>
+						<p className="text-lg">1551-2022</p>
 					</div>
 					<div className="relative">
-						<div className="-z-10 h-[10vh]"></div>
+						<div className="-z-10 h-[12vh]"></div>
 						<div className="absolute bottom-[18vmax] w-full">
-							<div className="cont-inicio mx-auto">
+							{/* <div className="cont-inicio mx-auto"> */}
+							<div className="">
 								<div className="flex pt-10 px-10">
 									{/* <div className="flex pt-32 px-[5vw]"> */}
 									<div className="flex flex-row mr-[2vmax]">
@@ -144,9 +152,43 @@ export const Interactivo = () => {
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/edificio2_3a71837138.png"
 							alt=""
 						/>
+						<div className="sticky bottom-0">
+							<div className="absolute bottom-16 bg-azulOscuro w-full h-10">
+								<div className="px-10 h-full flex flex-row items-center justify-around text-xs font-lato">
+									<div className="nombre-personaje">
+										Daniel Alcides Carrión
+									</div>
+									<div className="nombre-personaje">
+										Rosa Alarco
+									</div>
+									<div className="nombre-personaje">
+										Jorge Basadre
+									</div>
+									<div className="nombre-personaje">
+										Ella Dunbar Temple
+									</div>
+									<div className="nombre-personaje">
+										Mario Vargas Llosa
+									</div>
+									<div className="nombre-personaje">
+										Ruth Shady
+									</div>
+									<div className="nombre-personaje">
+										Raúl Porras Barrenechea
+									</div>
+									<div className="nombre-personaje">
+										María Luisa Aguilar
+									</div>
+									<div className="nombre-personaje">
+										Julio C. Tello
+									</div>
+									<div className="nombre-personaje">
+										Santiago Antúnez de Mayolo
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-
-					<div></div>
 				</div>
 			</section>
 		</>

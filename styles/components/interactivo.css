@@ -14,13 +14,6 @@
 	z-index: 90;
 }
 
-/* .box-personaje .contain-personaje.per-3 img {
-	max-width: 100%;
-}
-.box-personaje .contain-personaje.per-4 img {
-	max-width: 100%;
-} */
-
 .box-personaje .contain-personaje.per-3 {
 	transform: scale(2.2);
 }
@@ -112,4 +105,14 @@
 		100% 6%,
 		100% 100%
 	);
+}
+
+.nombre-personaje {
+	cursor: pointer;
+	color: #ffffff80;
+	transition: all 0.3s ease;
+}
+
+.nombre-personaje:hover {
+	color: #ffffff;
 }
