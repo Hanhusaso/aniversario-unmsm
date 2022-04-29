@@ -11,6 +11,8 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carrion_grande_e0d3747480.png?updated_at=2022-04-29T15:57:00.123Z',
 		introduccion: 'asdadasdasd qeqwsdc sdcf',
 		seleccionado: false,
+		videoSaludo:
+			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 1,
@@ -24,6 +26,7 @@ const personajesIlustresData = [
 		slug: '',
 		introduccion: ' ois sdfogji ',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 2,
@@ -38,6 +41,7 @@ const personajesIlustresData = [
 		introduccion:
 			'El Premio Nobel de Literatura, nacido en Arequipa, el 28 de marzo de 1936, es considerado uno de los más importantes novelistas y ensayistas contemporáneos, cuya obra ha recibido numerosos reconocimientos en el mundo, entre ellos el Premio Cervantes, el Príncipe de Asturias de las Letras, el Rómulo Gallegos, entre otros; además de que varias de sus creaciones han sido adaptadas al cine y a la televisión.',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 3,
@@ -51,6 +55,8 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dumbar_grande_86eeaa1cdb.png?updated_at=2022-04-29T15:57:00.083Z',
 		introduccion: 'qdvqdvas',
 		seleccionado: false,
+		videoSaludo:
+			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 4,
@@ -64,6 +70,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_grande_43b53e1704.png?updated_at=2022-04-29T15:57:00.341Z',
 		introduccion: 'jkiyl  fghfdsgh fg ',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 5,
@@ -77,6 +84,8 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_grande_14b667afe5.png?updated_at=2022-04-29T15:57:00.646Z',
 		introduccion: 'sd fgsrgsdfg',
 		seleccionado: false,
+		videoSaludo:
+			'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v',
 	},
 	{
 		id: 6,
@@ -90,6 +99,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruthsahdy_grande_c9156bfe17.png?updated_at=2022-04-29T15:57:01.802Z',
 		introduccion: 'ra gsdf ',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 7,
@@ -103,6 +113,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_grande_9f3b806b5e.png?updated_at=2022-04-29T15:57:01.644Z',
 		introduccion: 'wert werg',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 8,
@@ -116,6 +127,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/julo_c_tello_grande_dc893ba5a0.png?updated_at=2022-04-29T15:57:00.421Z',
 		introduccion: 'wer gefg  ds',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 	{
 		id: 9,
@@ -129,6 +141,7 @@ const personajesIlustresData = [
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_atunez_grande_2d20868a88.png?updated_at=2022-04-29T15:57:02.162Z',
 		introduccion: 'sdfg sfvs dt',
 		seleccionado: false,
+		videoSaludo: '',
 	},
 ];
 

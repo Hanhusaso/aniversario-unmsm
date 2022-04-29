@@ -101,9 +101,11 @@ export const PersonajesIlustres = () => {
 								Leer más.
 							</span>
 						</p>
-						<button className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
-							<Triangulo className="mr-3" /> Ver saludo
-						</button>
+						{personajeElegido.videoSaludo !== '' && (
+							<button className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
+								<Triangulo className="mr-3" /> Ver saludo
+							</button>
+						)}
 					</div>
 				</div>
 			</div>
