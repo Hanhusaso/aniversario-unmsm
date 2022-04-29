@@ -3,7 +3,7 @@ import React from 'react';
 export const Interactivo = () => {
 	return (
 		<>
-			<section className="interactivo relative pb-10 bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
+			<section className="interactivo relative bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
 				<div className="">
 					{/* <div className=""> */}
 					<div className="info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
