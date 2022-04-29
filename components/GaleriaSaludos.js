@@ -46,24 +46,40 @@ export const GaleriaSaludos = () => {
 						return (
 							<SwiperSlide key={saludo.id}>
 								{({ isActive }) => (
-									<div
-										className={`mx-auto relative cursor-pointer ${
-											!isActive &&
-											'px-[0.5625rem] translate-y-3 brightness-[0.85]'
-										} ${isActive && 'brightness-105'}`}>
-										<Image
-											src={saludo.img}
-											alt={saludo.nombre}
-											// objectFit="cover"
-											layout="responsive"
-											quality={100}
-											width={196}
-											height={240}
-											className="w-full h-full"
-										/>
-										<PlayIcon
-											className={`brightness-100 absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px] fill-blanco`}
-										/>
+									<div className="relative cursor-pointer">
+										<div
+											className={`mx-auto relative cursor-pointer ${
+												!isActive &&
+												'px-[0.5625rem] translate-y-3 brightness-[0.5]'
+											} ${isActive && 'brightness-105'}`}>
+											<Image
+												src={saludo.img}
+												alt={saludo.nombre}
+												// objectFit="cover"
+												layout="responsive"
+												quality={100}
+												width={196}
+												height={240}
+												className="w-full h-full"
+											/>
+										</div>
+										<div className="font-medium absolute top-1/4 translate-y-5 text-center text-blanco w-full px-10">
+											<div className="flex justify-center w-full">
+												<PlayIcon
+													className={` fill-blanco`}
+												/>
+											</div>
+											{!isActive && (
+												<div className="line-clamp-4">
+													<p className="mt-2">
+														{saludo.nombre}
+													</p>
+													<p className="text-xs">
+														{saludo.biodata}
+													</p>
+												</div>
+											)}
+										</div>
 									</div>
 								)}
 							</SwiperSlide>

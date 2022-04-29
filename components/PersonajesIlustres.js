@@ -80,8 +80,8 @@ export const PersonajesIlustres = () => {
 					<div className="w-[29%]">
 						<Image
 							src={personajeElegido.imagenGrande}
-							width={230}
-							height={260}
+							width={431}
+							height={480}
 							layout="responsive"
 							draggable={false}
 							quality={100}
