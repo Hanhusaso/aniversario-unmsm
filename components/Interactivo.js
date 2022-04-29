@@ -29,6 +29,7 @@ export const Interactivo = () => {
 					</div>
 					<div className="relative">
 						<div className="-z-10 h-[12vh]"></div>
+						<div className="absolute bottom-0 w-full h-2 bg-azulOscuro"></div>
 						<div className="absolute bottom-[18vmax] w-full">
 							{/* <div className="cont-inicio mx-auto"> */}
 							<div className="">
