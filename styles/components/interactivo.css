@@ -3,6 +3,29 @@
 	width: 100%;
 }
 
+@keyframes animatedBackground {
+	0% {
+		background-position: -400% 0%, center;
+	}
+	20% {
+		background-position: 300% 100%, center;
+	}
+	100% {
+		background-position: 300% 100%, center;
+	}
+}
+
+.numero-brillo {
+	background: url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/brillo_blanco_3e78cd9bd3.png),
+		url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/orito_462d040c90.jpg);
+	background-position: center, right;
+	background-size: 210px, cover;
+	background-repeat: no-repeat, no-repeat;
+	background-position: -100% -100%, center;
+	background-clip: text;
+	animation: animatedBackground 7s linear infinite;
+}
+
 .box-personaje .contain-personaje {
 	cursor: pointer;
 	transform: scale(1.8);
@@ -111,6 +134,9 @@
 	cursor: pointer;
 	color: #ffffff80;
 	transition: all 0.3s ease;
+	height: 100%;
+	display: grid;
+	place-items: center;
 }
 
 .nombre-personaje:hover {
