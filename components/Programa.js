@@ -164,7 +164,7 @@ export const Programa = () => {
 								San Marcos. Av. Nicolás de Piérola 1222.
 							</p>
 							<div className="flex flex-row justify-start ">
-								<CalendarButton />
+								<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnV1a2UxbnUyM25vanQ0OWlwZTVnYmdmbTggYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 							</div>
 							<LineaDivision />
 						</div>
@@ -179,7 +179,7 @@ export const Programa = () => {
 								Universitaria.
 							</p>
 							<div className="flex flex-row justify-start ">
-								<CalendarButton />
+								<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2dha3FxdWZla2pjMzRwZWhkZGMzNjMxbmwgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 							</div>
 						</div>
 					</div>
@@ -219,7 +219,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MnJxampvN2w4N3A5cmM4bzIzaHE2Mjc5dmggYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -237,7 +237,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlmZmgwcGx2MW85dDdmN29jOXZ0OTdzYXYgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -253,7 +253,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NTc4MWcyamE3Z2twcmppbTY5amFmZjEzbTEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -280,7 +280,7 @@ export const Programa = () => {
 										Cercado de Lima.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NXJhMzUyYm43am0zbGFuanEwNWhkcGszdmEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -297,7 +297,7 @@ export const Programa = () => {
 										Lima.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmlsZG44N3Fqa2VuNTRxcmhlbmhzcWM0aDkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -316,7 +316,7 @@ export const Programa = () => {
 										Marcos. Av. Nicolás de Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2drcDdjYjJjYXVwdGYyN2lzdm1vZXZkcmQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -342,7 +342,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm5oNmIyNmJnaGplMGQ1cWVxNW01Yjk3ZmkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -359,7 +359,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDNuaWV2cjQ1aTNnNnFhMDQyYjcxMmVncm8gYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -374,7 +374,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M3BmY2VvdDVxa3AzbjU3Z2dkMHNuZGU1MXAgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -397,7 +397,7 @@ export const Programa = () => {
 										Lurigancho
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTcxamFibjEzdTFyYmI0cDE5NmY5OHJvOGMgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
