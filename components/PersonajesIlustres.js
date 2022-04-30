@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
@@ -25,7 +26,7 @@ export const PersonajesIlustres = () => {
 	);
 	return (
 		<>
-			<div className="bg-gris">
+			<div className="bg-gris" id="personajesIlustres">
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
@@ -67,8 +68,7 @@ export const PersonajesIlustres = () => {
 									personajes[index].seleccionado &&
 									'opacity-50'
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
-								style={{ left: pers.desplazamiento }}
-							>
+								style={{ left: pers.desplazamiento }}>
 								<Image
 									src={pers.imagenMiniatura}
 									width={230}
@@ -103,9 +103,13 @@ export const PersonajesIlustres = () => {
 						</h1>
 						<p className="mt-9">
 							{personajeElegido.introduccion}
-							<span className="text-rojoclaro font-black ml-2 cursor-pointer hover:brightness-200">
-								Leer más.
-							</span>
+							<Link href={'/' + personajeElegido.slug}>
+								<a>
+									<span className="text-rojoclaro font-black ml-2 cursor-pointer hover:brightness-200">
+										Leer más.
+									</span>
+								</a>
+							</Link>
 						</p>
 						{personajeElegido.videoSaludo !== '' && (
 							<button
@@ -115,8 +119,7 @@ export const PersonajesIlustres = () => {
 									);
 									setEstadoModal(true);
 								}}
-								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
-							>
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
 								<Triangulo className="mr-3" /> Ver saludo
 							</button>
 						)}
