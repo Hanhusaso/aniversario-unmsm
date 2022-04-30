@@ -93,7 +93,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
 													<img
-														src="/img/personajes/jorge-basadre-largo.png"
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_largo_b180404627.png"
 														alt=""
 													/>
 												</div>
@@ -103,7 +103,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
 													<img
-														src="/img/personajes/ella-dunbar-largo.png"
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dunbar_largo_860c346416.png"
 														alt=""
 													/>
 												</div>
