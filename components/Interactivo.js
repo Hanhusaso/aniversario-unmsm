@@ -1,36 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
 export const Interactivo = () => {
-	const bottom_inicio = useRef(null);
-
-	// console.log(bottom_inicio.current);
-
-	useEffect(() => {
-		console.log(bottom_inicio.current.offsetTop);
-		var last_known_scroll_position = 0;
-		var ticking = false;
-
-		function doSomething(scroll_pos) {
-			if (scroll_pos > bottom_inicio.current.offsetTop) {
-				console.log('desaparece');
-			} else {
-				console.log('aparece');
-			}
-		}
-
-		window.addEventListener('scroll', function (e) {
-			last_known_scroll_position = window.scrollY;
-			if (!ticking) {
-				window.requestAnimationFrame(function () {
-					doSomething(last_known_scroll_position);
-					ticking = false;
-				});
-			}
-			ticking = true;
-		});
-		return () => {};
-	}, []);
-
 	return (
 		<>
 			<section className="interactivo relative bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
@@ -59,10 +29,7 @@ export const Interactivo = () => {
 					</div>
 					<div className="relative">
 						<div className="-z-10 h-[12vh]"></div>
-						<div
-							ref={bottom_inicio}
-							className="absolute bottom-0 w-full h-2 bg-azulOscuro"
-						></div>
+						<div className="absolute bottom-0 w-full h-2 bg-azulOscuro"></div>
 						<div className="absolute bottom-[18vmax] w-full">
 							{/* <div className="cont-inicio mx-auto"> */}
 							<div className="">
@@ -93,7 +60,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
 													<img
-														src="/img/personajes/jorge-basadre-largo.png"
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_largo_b180404627.png"
 														alt=""
 													/>
 												</div>
@@ -103,7 +70,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
 													<img
-														src="/img/personajes/ella-dunbar-largo.png"
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dunbar_largo_860c346416.png"
 														alt=""
 													/>
 												</div>
