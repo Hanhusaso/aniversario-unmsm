@@ -16,14 +16,23 @@
 }
 
 .numero-brillo {
-	background: url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/brillo_blanco_3e78cd9bd3.png),
-		url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/orito_462d040c90.jpg);
+	/* background-color: rgb(212, 159, 25); */
+	/* background-color: red; */
+	background-image: url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/brillo_blanco_3e78cd9bd3.png),
+		url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_de_textura_oro_metalico_dorada_placa_metalica_161498648_1_5d79ad2f8e.png);
+
+	/* background-color: linear-gradient(
+		90deg,
+		rgba(145, 106, 7, 1) 16%,
+		rgba(237, 229, 209, 1) 49%,
+		rgba(145, 106, 7, 1) 93%
+	); */
 	background-position: center, right;
 	background-size: 210px, cover;
 	background-repeat: no-repeat, no-repeat;
 	background-position: -100% -100%, center;
 	background-clip: text;
-	animation: animatedBackground 7s linear infinite;
+	animation: animatedBackground 2s linear infinite;
 }
 
 .box-personaje .contain-personaje {
