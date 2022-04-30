@@ -14,25 +14,71 @@
 		background-position: 300% 100%, center;
 	}
 }
-
+/* 
 .numero-brillo {
-	/* background-color: rgb(212, 159, 25); */
-	/* background-color: red; */
 	background-image: url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/brillo_blanco_3e78cd9bd3.png),
 		url(https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_de_textura_oro_metalico_dorada_placa_metalica_161498648_1_5d79ad2f8e.png);
-
-	/* background-color: linear-gradient(
-		90deg,
-		rgba(145, 106, 7, 1) 16%,
-		rgba(237, 229, 209, 1) 49%,
-		rgba(145, 106, 7, 1) 93%
-	); */
 	background-position: center, right;
 	background-size: 210px, cover;
 	background-repeat: no-repeat, no-repeat;
 	background-position: -100% -100%, center;
 	background-clip: text;
 	animation: animatedBackground 2s linear infinite;
+	
+} */
+.numero-brillo {
+	background: linear-gradient(
+		223deg,
+		#ccaa35,
+		#54481f,
+		#f1ede1,
+		#8d7c49,
+		#ccaa35,
+		#8d7c49
+	);
+	background-size: 1200% 1200%;
+
+	-webkit-animation: AnimationName 6s ease infinite;
+	-moz-animation: AnimationName 6s ease infinite;
+	animation: AnimationName 6s ease infinite;
+	color: #000;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes AnimationName {
+	0% {
+		background-position: 0% 92%;
+	}
+	50% {
+		background-position: 100% 9%;
+	}
+	100% {
+		background-position: 0% 92%;
+	}
+}
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 0% 92%;
+	}
+	50% {
+		background-position: 100% 9%;
+	}
+	100% {
+		background-position: 0% 92%;
+	}
+}
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 92%;
+	}
+	50% {
+		background-position: 100% 9%;
+	}
+	100% {
+		background-position: 0% 92%;
+	}
 }
 
 .box-personaje .contain-personaje {
@@ -146,6 +192,9 @@
 	height: 100%;
 	display: grid;
 	place-items: center;
+	/* agregado provisionalmente */
+	color: #ffffff;
+	/**/
 }
 
 .nombre-personaje:hover {

@@ -16,15 +16,9 @@ export const Interactivo = () => {
 							className="mb-4"
 						/>
 
-						{/* <p
-							style={{ lineHeight: 1.1 }}
-							className="bg-gradient-to-b from-[#fafafa] via-[#7e5c0f] to-[#CE9D2E] text-transparent bg-clip-text font-adelleHeavy font-semibold text-[78px] leading-none">
-							ss
-						</p> */}
-						<p className="numero-brillo h-20 font-adelleHeavy font-semibold text-[78px] leading-tight text-transparent">
+						<p className="bg-clip-text numero-brillo h-20 font-adelleHeavy font-semibold text-[78px] leading-tight text-transparent">
 							471.°
 						</p>
-
 						<p className="font-adelleBold text-2xl mb-5">
 							Aniversario
 						</p>
@@ -44,7 +38,7 @@ export const Interactivo = () => {
 								<div className="flex pt-10 px-10">
 									{/* <div className="flex pt-32 px-[5vw]"> */}
 									<div className="flex flex-row mr-[2vmax]">
-										<div className="box-personaje test1">
+										<div className="box-personaje test1 hover:brightness-125">
 											<div className="relative bottom-[25.5vmax] left-[2.8vmax]">
 												<div className="contain-personaje per-1">
 													<Image
@@ -60,7 +54,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[19vmax] left-[4vmax]">
 												<div className="contain-personaje per-2">
 													<Image
@@ -76,7 +70,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
 													<Image
@@ -92,7 +86,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
 													<Image
@@ -108,7 +102,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative right-[1vmax]">
 												<div className="contain-personaje per-5">
 													<Image
@@ -126,7 +120,7 @@ export const Interactivo = () => {
 										</div>
 									</div>
 									<div className="flex flex-row-reverse ml-[2vmax]">
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[25.5vmax] right-[3.8vmax]">
 												<div className="contain-personaje per-10">
 													<Image
@@ -142,7 +136,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[20vmax] right-[4vmax]">
 												<div className="contain-personaje per-9">
 													<Image
@@ -158,7 +152,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[13.5vmax] right-[4vmax]">
 												<div className="contain-personaje per-8">
 													<Image
@@ -174,7 +168,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[6vmax] right-[3.5vmax]">
 												<div className="contain-personaje per-7">
 													<Image
@@ -190,7 +184,7 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje">
+										<div className="box-personaje hover:brightness-125">
 											<div className="relative -bottom-[.2vmax] right-[1.5vmax]">
 												<div className="contain-personaje per-6">
 													<Image
