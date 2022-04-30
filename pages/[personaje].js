@@ -9,7 +9,6 @@ import personajesIlustresData from '../data/personajesIlustresData';
 const Personaje = () => {
 	const router = useRouter();
 	const [personaje, setPersonaje] = useState(null);
-	console.log(personaje);
 	useEffect(() => {
 		if (router.isReady) {
 			personajesIlustresData.find((p) => {

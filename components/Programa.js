@@ -89,9 +89,9 @@ export const Programa = () => {
 							<ul className="list-disc pl-4">
 								<li className="mb-3 font-semibold text-base text-grisOscuroTitulos">
 									Inauguración de la exposición de los
-									artistas plásticos Bruno Portuguez y Del
-									Sherman Meléndez sobre el Colegio Real de
-									San Felipe y San Marcos.
+									artistas plásticos Bruno Portuguez y Sherman
+									Meléndez sobre el Colegio Real de San Felipe
+									y San Marcos.
 								</li>
 								<li className="mb-3 font-semibold text-base text-verdeOscuro">
 									Exposición fotográfica a cargo de Mario
@@ -137,7 +137,7 @@ export const Programa = () => {
 						<p className="col-span-2 mb-4 font-semibold">
 							Conferencias magistrales
 						</p>
-						<HorarioPrograma>16:00 horas</HorarioPrograma>
+						<HorarioPrograma>10:00 horas</HorarioPrograma>
 						<div className="text-sm">
 							<ul className="list-disc pl-4">
 								<li className="mb-3 font-semibold text-base text-verdeOscuro">
@@ -241,7 +241,7 @@ export const Programa = () => {
 									</div>
 									<LineaDivision />
 								</div>
-								<HorarioPrograma>14:00 horas</HorarioPrograma>
+								<HorarioPrograma>19:00 horas</HorarioPrograma>
 								<div className="text-sm">
 									<h1 className="mb-3 font-semibold text-base text-verdeOscuro ">
 										Serenata por el 471.° aniversario de la
@@ -264,7 +264,8 @@ export const Programa = () => {
 							<div className="grid grid-cols-[130px_auto]">
 								<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
 									<AgendaIcon className="mr-2" />
-									Día 4 | Miércoles 12 de mayo
+									Día 4 | Jueves 12 de mayo – Día Central del
+									471.° aniversario
 								</h1>
 								<HorarioPrograma>09:00 horas</HorarioPrograma>
 								<div className="text-sm">
@@ -305,7 +306,9 @@ export const Programa = () => {
 								<div className="text-sm">
 									<h1 className="mb-3 font-semibold text-base text-verdeOscuro ">
 										Sesión Solemne por el 471.° aniversario
-										de la UNMSM
+										de la UNMSM. Discurso de orden a cargo
+										de la doctora Ruth Shady Solís,
+										arqueóloga y docente extraordinaria.
 									</h1>
 									<p className="text-xs flex flex-row font-semibold">
 										<MapIcon className="mr-2" />
@@ -382,7 +385,7 @@ export const Programa = () => {
 							<div className="grid grid-cols-[130px_auto]">
 								<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
 									<AgendaIcon className="mr-2" />
-									Día 6 | Miércoles 14 de mayo
+									Día 6 | Sábado 14 de mayo
 								</h1>
 								<HorarioPrograma>09:00 horas</HorarioPrograma>
 								<div className="text-sm">
