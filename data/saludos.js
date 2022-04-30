@@ -63,7 +63,7 @@ const saludos = [
 		biodata: 'DT de vóley en el Club Alianza Lima',
 		cita: 'Un fuerte abrazo a todos los sanmarquinos de hoy, ayer y de siempre; siempre vamos a estar orgullosos de pertenecer a esta Universidad. ¡Felicitaciones!',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carlos_aparicio_unmsm_aniversario_bb1ad7a890.png?updated_at=2022-04-28T22:35:44.043Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Carlos+Aparicio+Vedia.mp4',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Carlos+Aparicio+Salda%C3%B1a+-+DT+de+v%C3%B3ley+en+el+Club+Alianza+Lima.mp4',
 	},
 ];
 
