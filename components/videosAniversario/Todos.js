@@ -17,7 +17,8 @@ export const Todos = () => {
 								'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v'
 							);
 							setEstadoModal(true);
-						}}>
+						}}
+					>
 						<Image
 							className="h-full object-cover"
 							layout="responsive"
@@ -25,7 +26,8 @@ export const Todos = () => {
 							quality={100}
 							width={673}
 							height={362}
-							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+						></Image>
 						<PlayIcon
 							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
@@ -49,7 +51,8 @@ export const Todos = () => {
 								'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v'
 							);
 							setEstadoModal(true);
-						}}>
+						}}
+					>
 						<Image
 							className="h-full object-cover"
 							layout="responsive"
@@ -57,7 +60,8 @@ export const Todos = () => {
 							width={324}
 							height={167}
 							draggable={false}
-							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+						></Image>
 						<PlayIcon
 							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
@@ -92,7 +96,8 @@ export const Todos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+					></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -105,7 +110,8 @@ export const Todos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+					></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -118,7 +124,8 @@ export const Todos = () => {
 						width={673}
 						height={362}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+					></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
@@ -131,7 +138,8 @@ export const Todos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
+					></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>

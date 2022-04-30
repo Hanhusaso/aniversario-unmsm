@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
+import { Modal } from './Modal';
+import ReactPlayer from 'react-player';
 
 export const PersonajesIlustres = () => {
+	const [estadoModal, setEstadoModal] = useState(false);
+	const [modalData, setModalData] = useState(null);
+
 	const [personajeElegido, setPersonajeElegido] = useState(
 		personajesIlustresData[2]
 	);
@@ -20,7 +26,7 @@ export const PersonajesIlustres = () => {
 	);
 	return (
 		<>
-			<div className="bg-gris">
+			<div className="bg-gris" id="personajesIlustres">
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
@@ -80,8 +86,8 @@ export const PersonajesIlustres = () => {
 					<div className="w-[29%]">
 						<Image
 							src={personajeElegido.imagenGrande}
-							width={230}
-							height={260}
+							width={431}
+							height={480}
 							layout="responsive"
 							draggable={false}
 							quality={100}
@@ -97,16 +103,49 @@ export const PersonajesIlustres = () => {
 						</h1>
 						<p className="mt-9">
 							{personajeElegido.introduccion}
-							<span className="text-rojoclaro font-black ml-2 cursor-pointer">
-								Leer más.
-							</span>
+							<Link href={'/' + personajeElegido.slug}>
+								<a>
+									<span className="text-rojoclaro font-black ml-2 cursor-pointer hover:brightness-200">
+										Leer más.
+									</span>
+								</a>
+							</Link>
 						</p>
-						<button className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
-							<Triangulo className="mr-3" /> Ver saludo
-						</button>
+						{personajeElegido.videoSaludo !== '' && (
+							<button
+								onClick={() => {
+									setModalData(
+										`${personajeElegido.videoSaludo}`
+									);
+									setEstadoModal(true);
+								}}
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
+								<Triangulo className="mr-3" /> Ver saludo
+							</button>
+						)}
 					</div>
 				</div>
 			</div>
+			<Modal estado={estadoModal} setEstado={setEstadoModal}>
+				{modalData &&
+					(estadoModal === true ? (
+						<ReactPlayer
+							controls
+							url={modalData}
+							width="100%"
+							height="100%"
+							playing={true}
+						/>
+					) : (
+						<ReactPlayer
+							controls
+							url={modalData}
+							width="100%"
+							height="100%"
+							playing={false}
+						/>
+					))}
+			</Modal>
 		</>
 	);
 };

@@ -16,6 +16,11 @@ export const Interactivo = () => {
 							className="mb-4"
 						/>
 
+						{/* <p
+							style={{ lineHeight: 1.1 }}
+							className="bg-gradient-to-b from-[#fafafa] via-[#7e5c0f] to-[#CE9D2E] text-transparent bg-clip-text font-adelleHeavy font-semibold text-[78px] leading-none">
+							ss
+						</p> */}
 						<p className="numero-brillo h-20 font-adelleHeavy font-semibold text-[78px] leading-tight text-transparent">
 							471.°
 						</p>
