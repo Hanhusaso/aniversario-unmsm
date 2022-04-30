@@ -9,7 +9,7 @@ const CalendarButton = ({ link }) => {
 				window.open(`${link}`, '_blank');
 			}}>
 			<CalendarioIcon className="mr-2" />
-			Agendar a Google Calendar
+			Agendar en Google Calendar
 		</button>
 	);
 };
