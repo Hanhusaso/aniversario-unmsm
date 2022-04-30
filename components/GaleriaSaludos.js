@@ -18,7 +18,6 @@ import ReactPlayer from 'react-player';
 
 export const GaleriaSaludos = () => {
 	const [count, setCount] = useState(0);
-	console.log('count: ', count);
 	const [estadoModal, setEstadoModal] = useState(false);
 	const [modalData, setModalData] = useState(null);
 
