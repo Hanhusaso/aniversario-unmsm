@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 export const Interactivo = () => {
 	return (
@@ -7,13 +8,15 @@ export const Interactivo = () => {
 				<div className="">
 					{/* <div className=""> */}
 					<div className="info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
-						<img
+						<Image
+							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/logo_unmsm_landing_aniversario_b3ce276cc7.png"
+							width={263}
+							height={72}
+							draggable={false}
 							className="mb-4"
-							src="/img/logo-unmsm-landing-aniversario.png"
-							alt=""
 						/>
 
-						<p className="font-adelleHeavy font-semibold text-[78px] leading-none">
+						<p className="numero-brillo h-20 font-adelleHeavy font-semibold text-[78px] leading-tight text-transparent">
 							471.°
 						</p>
 
@@ -30,59 +33,89 @@ export const Interactivo = () => {
 					<div className="relative">
 						<div className="-z-10 h-[12vh]"></div>
 						<div className="absolute bottom-0 w-full h-2 bg-azulOscuro"></div>
-						<div className="absolute bottom-[18vmax] w-full">
+						<div className="absolute bottom-[17vmax] w-full">
 							{/* <div className="cont-inicio mx-auto"> */}
 							<div className="">
 								<div className="flex pt-10 px-10">
 									{/* <div className="flex pt-32 px-[5vw]"> */}
 									<div className="flex flex-row mr-[2vmax]">
-										<div className="box-personaje">
+										<div className="box-personaje test1">
 											<div className="relative bottom-[25.5vmax] left-[2.8vmax]">
 												<div className="contain-personaje per-1">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/daniel_acides_31631bc9fb.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/daniel_acides_31631bc9fb.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[19vmax] left-[4vmax]">
 												<div className="contain-personaje per-2">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_597e1f76f3.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_597e1f76f3.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_largo_b180404627.png"
+														width={230}
+														height={388}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_largo_b180404627.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dunbar_largo_860c346416.png"
+														width={230}
+														height={276}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dunbar_largo_860c346416.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative right-[1vmax]">
 												<div className="contain-personaje per-5">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_llosa_ed9cc25bee.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_llosa_ed9cc25bee.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
@@ -91,50 +124,80 @@ export const Interactivo = () => {
 										<div className="box-personaje">
 											<div className="relative bottom-[25.5vmax] right-[3.8vmax]">
 												<div className="contain-personaje per-10">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_antunez_mayolo_57b772598a.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_antunez_mayolo_57b772598a.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[20vmax] right-[4vmax]">
 												<div className="contain-personaje per-9">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/julio_c_tello_64ea477221.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/julio_c_tello_64ea477221.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[13.5vmax] right-[4vmax]">
 												<div className="contain-personaje per-8">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_aguilar_491cc20598.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_aguilar_491cc20598.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative bottom-[6vmax] right-[3.5vmax]">
 												<div className="contain-personaje per-7">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_ea2afebab3.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_ea2afebab3.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
 										<div className="box-personaje">
 											<div className="relative -bottom-[.2vmax] right-[1.5vmax]">
 												<div className="contain-personaje per-6">
-													<img
+													<Image
+														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_30bccf9fbd.png"
+														width={230}
+														height={260}
+														draggable={false}
+													/>
+													{/* <img
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_30bccf9fbd.png"
 														alt=""
-													/>
+													/> */}
 												</div>
 											</div>
 										</div>
@@ -142,7 +205,6 @@ export const Interactivo = () => {
 								</div>
 							</div>
 						</div>
-
 						<img
 							className="w-[59vw] left-0 edificio-1 z-[1]"
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/edificio1_sanfernando_a49c78893c.png"
@@ -156,7 +218,7 @@ export const Interactivo = () => {
 						<div className="sticky bottom-0">
 							<div className="absolute bottom-0 bg-azulOscuro w-full h-10">
 								<div className="px-10 h-full flex flex-row items-center justify-around text-xs font-lato">
-									<div className="nombre-personaje">
+									<div className="nombre-personaje test1">
 										Daniel Alcides Carrión
 									</div>
 									<div className="nombre-personaje">
