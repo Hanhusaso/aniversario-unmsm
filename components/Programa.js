@@ -140,7 +140,7 @@ export const Programa = () => {
 										Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NTc4MWcyamE3Z2twcmppbTY5amFmZjEzbTEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -187,7 +187,7 @@ export const Programa = () => {
 										Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmlsZG44N3Fqa2VuNTRxcmhlbmhzcWM0aDkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -204,7 +204,7 @@ export const Programa = () => {
 										Ciudad Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2drcDdjYjJjYXVwdGYyN2lzdm1vZXZkcmQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>

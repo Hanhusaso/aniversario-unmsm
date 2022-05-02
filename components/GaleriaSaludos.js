@@ -22,7 +22,7 @@ export const GaleriaSaludos = () => {
 	const [modalData, setModalData] = useState(null);
 
 	return (
-		<div className="bg-blanco pt-[3.625rem] pb-8">
+		<div id="galeriaDeSaludos" className="bg-blanco pt-[3.625rem] pb-8">
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-amarillo font-adelleBold font-semibold text-5xl pb-1">
 					Galería de Saludos
@@ -55,14 +55,12 @@ export const GaleriaSaludos = () => {
 										onClick={() => {
 											setModalData(`${saludo.video}`);
 											setEstadoModal(true);
-										}}
-									>
+										}}>
 										<div
 											className={`mx-auto relative cursor-pointer ${
 												!isActive &&
 												'px-[0.5625rem] translate-y-3 brightness-[0.5]'
-											} ${isActive && 'brightness-105'}`}
-										>
+											} ${isActive && 'brightness-105'}`}>
 											<Image
 												src={saludo.img}
 												alt={saludo.nombre}
@@ -122,7 +120,7 @@ export const GaleriaSaludos = () => {
 						))}
 				</Modal>
 			</div>
-			<div className="flex flex-col items-center justify-center pt-4">
+			<div className="flex flex-col items-center justify-center text-center pt-4 px-48">
 				<ReferenciaIcon />
 				<p className="mt-3 text-lg font-semibold">
 					{saludos[count].cita}
