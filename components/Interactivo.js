@@ -7,7 +7,6 @@ import { useWindowSize } from '../utils/useWindowSize';
 export const Interactivo = () => {
 	const { scrollPersonajes, personajes, setPersonajes, setPersonajeElegido } =
 		useContext(PersonajesContext);
-
 	const { width, height } = useWindowSize();
 	return (
 		<>
