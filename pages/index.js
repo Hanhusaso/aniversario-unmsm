@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<main className="font-lato">
 			<Interactivo />
-			<Programa />
+			{/* <Programa />
 			<GaleriaSaludos />
 			<PersonajesIlustres />
 			<Videos />
@@ -69,7 +69,7 @@ export default function Home() {
 						</ul>
 					</div>
 				</div>
-			</footer>
+			</footer> */}
 		</main>
 	);
 }
