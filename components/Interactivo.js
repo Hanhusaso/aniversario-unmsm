@@ -1,7 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useContext } from 'react';
+import PersonajesContext from '../contexts/personajesContext';
 import Image from 'next/image';
+import personajesIlustresData from '../data/personajesIlustresData';
 
 export const Interactivo = () => {
+	const {
+		scrollPersonajes,
+		personajes,
+		setPersonajes,
+		personajeElegido,
+		setPersonajeElegido,
+	} = useContext(PersonajesContext);
 	return (
 		<>
 			<section className="interactivo relative bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
@@ -38,7 +47,30 @@ export const Interactivo = () => {
 								<div className="flex pt-10 px-10">
 									{/* <div className="flex pt-32 px-[5vw]"> */}
 									<div className="flex flex-row mr-[2vmax]">
-										<div className="box-personaje test1 hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[0]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[0].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje test1 hover:brightness-125">
 											<div className="relative bottom-[25.5vmax] left-[2.8vmax]">
 												<div className="contain-personaje per-1">
 													<Image
@@ -47,14 +79,33 @@ export const Interactivo = () => {
 														height={260}
 														draggable={false}
 													/>
-													{/* <img
-														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/daniel_acides_31631bc9fb.png"
-														alt=""
-													/> */}
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[1]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[1].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[19vmax] left-[4vmax]">
 												<div className="contain-personaje per-2">
 													<Image
@@ -70,7 +121,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[4]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[4].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
 													<Image
@@ -86,7 +160,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[3]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[3].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
 													<Image
@@ -102,7 +199,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[2]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[2].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative right-[1vmax]">
 												<div className="contain-personaje per-5">
 													<Image
@@ -120,7 +240,30 @@ export const Interactivo = () => {
 										</div>
 									</div>
 									<div className="flex flex-row-reverse ml-[2vmax]">
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[9]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[9].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[25.5vmax] right-[3.8vmax]">
 												<div className="contain-personaje per-10">
 													<Image
@@ -136,7 +279,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[8]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[8].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[20vmax] right-[4vmax]">
 												<div className="contain-personaje per-9">
 													<Image
@@ -152,7 +318,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[5]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[5].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[13.5vmax] right-[4vmax]">
 												<div className="contain-personaje per-8">
 													<Image
@@ -168,7 +357,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[7]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[7].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative bottom-[6vmax] right-[3.5vmax]">
 												<div className="contain-personaje per-7">
 													<Image
@@ -184,7 +396,30 @@ export const Interactivo = () => {
 												</div>
 											</div>
 										</div>
-										<div className="box-personaje hover:brightness-125">
+										<div
+											onClick={() => {
+												setPersonajeElegido(
+													personajes[6]
+												);
+												setPersonajes(
+													personajesIlustresData.map(
+														(p) => {
+															if (
+																p.id ===
+																personajes[6].id
+															) {
+																return {
+																	...p,
+																	seleccionado: true,
+																};
+															}
+															return p;
+														}
+													)
+												);
+												scrollPersonajes();
+											}}
+											className="box-personaje hover:brightness-125">
 											<div className="relative -bottom-[.2vmax] right-[1.5vmax]">
 												<div className="contain-personaje per-6">
 													<Image

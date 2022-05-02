@@ -1,32 +1,43 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useContext, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
+import PersonajesContext from '../contexts/personajesContext';
 
 export const PersonajesIlustres = () => {
+	const {
+		setPersonajesIlustresRef,
+		personajes,
+		setPersonajes,
+		personajeElegido,
+		setPersonajeElegido,
+	} = useContext(PersonajesContext);
+
 	const [estadoModal, setEstadoModal] = useState(false);
 	const [modalData, setModalData] = useState(null);
 
-	const [personajeElegido, setPersonajeElegido] = useState(
-		personajesIlustresData[2]
-	);
-	const [personajes, setPersonajes] = useState(
-		personajesIlustresData.map((p) => {
-			if (p.id === 2) {
-				return {
-					...p,
-					seleccionado: true,
-				};
-			}
-			return p;
-		})
-	);
+	const personajesIlustresRef = useRef(null);
+
+	useEffect(() => {
+		setPersonajesIlustresRef(personajesIlustresRef);
+	}, [personajesIlustresRef]);
+
+	const scrollPersonajes = () => {
+		personajesIlustresRef.current.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start',
+		});
+	};
+
 	return (
 		<>
-			<div className="bg-gris" id="personajesIlustres">
+			<div
+				className="bg-gris"
+				id="personajesIlustres"
+				ref={personajesIlustresRef}>
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
