@@ -21,6 +21,8 @@ module.exports = {
 			backgroundImage: {
 				personajesIlustres:
 					'url("https://posgrado-unmsm.s3.sa-east-1.amazonaws.com/textura_Final_145d1cfe31.png")',
+				programaHeader:
+					'url("https://posgrado-unmsm.s3.sa-east-1.amazonaws.com/muro_unmsm_76b9ba3b5f.png")',
 			},
 			fontFamily: {
 				lato: 'Lato',

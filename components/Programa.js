@@ -15,7 +15,7 @@ export const Programa = () => {
 	const [verCompleto, setVerCompleto] = useState(false);
 	return (
 		<>
-			<div className="bg-azulOscuro">
+			<div className="bg-azulOscuro bg-no-repeat bg-cover bg-programaHeader">
 				<div className="container mx-auto">
 					<div className="flex flex-row justify-start items-center h-36">
 						<p className="font-adelleBold font-semibold text-amarillo text-5xl mr-16 -translate-y-1">
