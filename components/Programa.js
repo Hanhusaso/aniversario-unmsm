@@ -30,13 +30,11 @@ export const Programa = () => {
 					</div>
 				</div>
 			</div>
-
 			<div className="bg-gris">
 				<div className="container mx-auto">
 					<div
 						id="dia1"
-						className="bg-gris pt-12 pb-8 text-verdeClaro"
-					>
+						className="bg-gris pt-12 pb-8 text-verdeClaro">
 						<div className="mx-5 md:mx-0 bg-blanco py-8 px-6 md:px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 							<div className="grid grid-cols-[130px_auto]">
 								<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
@@ -140,7 +138,7 @@ export const Programa = () => {
 										Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NTc4MWcyamE3Z2twcmppbTY5amFmZjEzbTEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -187,7 +185,7 @@ export const Programa = () => {
 										Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmlsZG44N3Fqa2VuNTRxcmhlbmhzcWM0aDkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision />
 								</div>
@@ -204,7 +202,7 @@ export const Programa = () => {
 										Ciudad Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2drcDdjYjJjYXVwdGYyN2lzdm1vZXZkcmQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -214,8 +212,7 @@ export const Programa = () => {
 					{!verCompleto && (
 						<div
 							className="bg-gris pb-8 text-verdeClaro flex flex-col items-center justify-center cursor-pointer"
-							onClick={() => setVerCompleto(!verCompleto)}
-						>
+							onClick={() => setVerCompleto(!verCompleto)}>
 							<p className="text-rojo font-semibold hover:brightness-150">
 								Clic aquí para conocer todas las actividades
 							</p>
@@ -227,8 +224,7 @@ export const Programa = () => {
 						<>
 							<div
 								id="dia3"
-								className="bg-gris pb-8 text-verdeClaro"
-							>
+								className="bg-gris pb-8 text-verdeClaro">
 								<div className="mx-5 md:mx-0 bg-blanco py-8 px-6 md:px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
@@ -296,8 +292,7 @@ export const Programa = () => {
 							</div>
 							<div
 								id="dia4"
-								className="bg-gris pb-8 text-verdeClaro"
-							>
+								className="bg-gris pb-8 text-verdeClaro">
 								<div className="mx-5 md:mx-0 bg-blanco py-8 px-6 md:px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
@@ -367,8 +362,7 @@ export const Programa = () => {
 							</div>
 							<div
 								id="dia5"
-								className="bg-gris pb-8 text-verdeClaro"
-							>
+								className="bg-gris pb-8 text-verdeClaro">
 								<div className="mx-5 md:mx-0 bg-blanco py-8 px-6 md:px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
@@ -435,8 +429,7 @@ export const Programa = () => {
 							</div>
 							<div
 								id="dia6"
-								className="bg-gris pb-8 text-verdeClaro"
-							>
+								className="bg-gris pb-8 text-verdeClaro">
 								<div className="mx-5 md:mx-0 bg-blanco py-8 px-6 md:px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
@@ -466,8 +459,6 @@ export const Programa = () => {
 					)}
 				</div>
 			</div>
-<<<<<<< HEAD
-
 			<div id="dia2" className="bg-gris pb-8 text-verdeClaro">
 				<div className="container mx-auto bg-blanco py-8 px-20 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
 					<div className="grid grid-cols-[130px_auto]">
@@ -526,7 +517,6 @@ export const Programa = () => {
 					</div>
 				</div>
 			</div>
-
 			{!verCompleto && (
 				<div
 					className="bg-gris pb-8 text-verdeClaro flex flex-col items-center justify-center cursor-pointer"
@@ -537,7 +527,6 @@ export const Programa = () => {
 					<FlechaAbajo />
 				</div>
 			)}
-
 			{verCompleto && (
 				<>
 					<div id="dia3" className="bg-gris pb-8 text-verdeClaro">
@@ -746,8 +735,8 @@ export const Programa = () => {
 					</div>
 				</>
 			)}
-=======
->>>>>>> 5ea6622646824fd4745c23b4f7d8e36896c3f80f
+			======= >>>>>>> 5ea6622646824fd4745c23b4f7d8e36896c3f80f =======
+			>>>>>>> f2edc212e37ad681910ac1c6545d5629418bc848
 		</>
 	);
 };
