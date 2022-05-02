@@ -7,6 +7,8 @@ import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
 import PersonajesContext from '../contexts/personajesContext';
 
+import { useWindowSize } from '../utils/useWindowSize';
+
 export const PersonajesIlustres = () => {
 	const {
 		setPersonajesIlustresRef,
@@ -15,6 +17,8 @@ export const PersonajesIlustres = () => {
 		personajeElegido,
 		setPersonajeElegido,
 	} = useContext(PersonajesContext);
+
+	const { width, height } = useWindowSize();
 
 	const [estadoModal, setEstadoModal] = useState(false);
 	const [modalData, setModalData] = useState(null);
@@ -37,7 +41,8 @@ export const PersonajesIlustres = () => {
 			<div
 				className="bg-gris"
 				id="personajesIlustres"
-				ref={personajesIlustresRef}>
+				ref={personajesIlustresRef}
+			>
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
@@ -79,7 +84,8 @@ export const PersonajesIlustres = () => {
 									personajes[index].seleccionado &&
 									'opacity-50'
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
-								style={{ left: pers.desplazamiento }}>
+								style={{ left: pers.desplazamiento }}
+							>
 								<Image
 									src={pers.imagenMiniatura}
 									width={230}
@@ -130,7 +136,8 @@ export const PersonajesIlustres = () => {
 									);
 									setEstadoModal(true);
 								}}
-								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
+							>
 								<Triangulo className="mr-3" /> Ver saludo
 							</button>
 						)}
