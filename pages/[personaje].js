@@ -17,7 +17,7 @@ const Personaje = () => {
 				}
 			});
 		}
-	}, [router.isReady]);
+	}, [router.isReady, router.query.personaje]);
 
 	return (
 		personaje && (
@@ -44,6 +44,7 @@ const Personaje = () => {
 						</div>
 						<div className="relative basis-1/2 px-14">
 							<Image
+								alt={personaje.nombres}
 								src={personaje.imgContenido}
 								width={630}
 								height={910}

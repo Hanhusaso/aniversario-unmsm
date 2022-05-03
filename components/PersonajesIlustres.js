@@ -23,14 +23,14 @@ export const PersonajesIlustres = () => {
 
 	useEffect(() => {
 		setPersonajesIlustresRef(personajesIlustresRef);
-	}, [personajesIlustresRef]);
+	}, [personajesIlustresRef, setPersonajesIlustresRef]);
 
-	const scrollPersonajes = () => {
-		personajesIlustresRef.current.scrollIntoView({
-			behavior: 'smooth',
-			block: 'start',
-		});
-	};
+	// const scrollPersonajes = () => {
+	// 	personajesIlustresRef.current.scrollIntoView({
+	// 		behavior: 'smooth',
+	// 		block: 'start',
+	// 	});
+	// };
 
 	return (
 		<>
@@ -84,6 +84,7 @@ export const PersonajesIlustres = () => {
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
 								style={{ left: pers.desplazamiento }}>
 								<Image
+									alt={pers.nombres}
 									src={pers.imagenMiniatura}
 									width={230}
 									height={260}
@@ -116,6 +117,7 @@ export const PersonajesIlustres = () => {
 						<div className="mx-auto w-1/2 md:w-full">
 							<Image
 								src={personajeElegido.imagenGrande}
+								alt={personajeElegido.nombres}
 								width={431}
 								height={480}
 								layout="responsive"

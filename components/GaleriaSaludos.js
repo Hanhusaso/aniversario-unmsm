@@ -71,8 +71,8 @@ export const GaleriaSaludos = () => {
 													isActive && 'brightness-105'
 												}`}>
 												<Image
-													src={saludo.img}
 													alt={saludo.nombre}
+													src={saludo.img}
 													// objectFit="cover"
 													layout="responsive"
 													quality={100}
