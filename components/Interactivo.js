@@ -2,21 +2,19 @@ import React, { useContext } from 'react';
 import PersonajesContext from '../contexts/personajesContext';
 import Image from 'next/image';
 import personajesIlustresData from '../data/personajesIlustresData';
+import { useWindowSize } from '../utils/useWindowSize';
+import LineaDivision from './LineaDivision';
 
 export const Interactivo = () => {
-	const {
-		scrollPersonajes,
-		personajes,
-		setPersonajes,
-		personajeElegido,
-		setPersonajeElegido,
-	} = useContext(PersonajesContext);
+	const { scrollPersonajes, personajes, setPersonajes, setPersonajeElegido } =
+		useContext(PersonajesContext);
+	// const { width, height } = useWindowSize();
 	return (
 		<>
-			<section className="interactivo relative bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
+			<section className="interactivo relative bg-azulOscuro sm:bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
 				<div className="">
 					{/* <div className=""> */}
-					<div className="info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
+					<div className="z-10 info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
 						<Image
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/logo_unmsm_landing_aniversario_b3ce276cc7.png"
 							width={263}
@@ -38,7 +36,7 @@ export const Interactivo = () => {
 						<p className="text-lg">12 de mayo</p>
 						<p className="text-lg">1551-2022</p>
 					</div>
-					<div className="relative">
+					<div className="hidden sm:block relative ">
 						<div className="-z-10 h-[12vh]"></div>
 						<div className="absolute bottom-0 w-full h-2 bg-azulOscuro"></div>
 						<div className="absolute bottom-[17vmax] w-full">
@@ -484,6 +482,27 @@ export const Interactivo = () => {
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+					<div className="sm:hidden">
+						<div className="w-full">
+							<Image
+								width={360}
+								height={604}
+								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/landing_aniversario_responsive_b101db2280.png"
+								layout="responsive"
+								quality={100}
+							/>
+						</div>
+						<div className="bg-azulOscuro text-blanco text-[0.5rem] py-3 px-4">
+							<p>
+								De izquierda a derecha: Daniel Alcides Carrión,
+								Rosa Alarco, Jorge Basadre, Ella Dunbar Temple,
+								Mario Vargas Llosa , Ruth Shady, Raúl Porras
+								Barrenechea, María Luisa Aguilar, Julio C. Tello
+								y Santiago A. de Mayolo
+							</p>
+							<LineaDivision mt={5} mb={5} />
 						</div>
 					</div>
 				</div>
