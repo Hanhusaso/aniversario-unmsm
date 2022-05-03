@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PersonajesContext from '../contexts/personajesContext';
+import PersonajesContext from '../contexts/personajeContext';
 import Image from 'next/image';
 import personajesIlustresData from '../data/personajesIlustresData';
 

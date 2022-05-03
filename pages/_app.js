@@ -1,4 +1,4 @@
-import { PersonajesProvider } from '../contexts/personajesContext';
+import { PersonajesProvider } from '../contexts/personajeContext';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {

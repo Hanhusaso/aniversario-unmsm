@@ -5,7 +5,7 @@ import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
-import PersonajesContext from '../contexts/personajesContext';
+import PersonajesContext from '../contexts/personajeContext';
 
 export const PersonajesIlustres = () => {
 	const {
@@ -49,7 +49,7 @@ export const PersonajesIlustres = () => {
 								La figura de hombres y mujeres que dejaron su
 								legado a futuras generaciones en los diversos
 								campos del conocimiento, engalana el afiche del
-								471° aniversario de la Universidad Nacional
+								471.° aniversario de la Universidad Nacional
 								Mayor de San Marcos (UNMSM) que conmemorará el
 								próximo 12 de mayo. A continuación, una breve
 								reseña que destaca los aportes de un grupo de
