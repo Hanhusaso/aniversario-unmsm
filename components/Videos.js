@@ -8,7 +8,7 @@ export const Videos = () => {
 	const [estadoModal, setEstadoModal] = useState(false);
 	const [modalData, setModalData] = useState(null);
 	return (
-		<div className="px-4 py-4 md:container mx-auto md:py-10 md:px-20">
+		<div className="px-4 py-4 md:container mx-auto md:py-10 md:px-20 bg-blanco">
 			<h2 className="text-center text-5xl text-amarillo mb-12 font-bold">
 				Videos de aniversario
 			</h2>
@@ -21,8 +21,7 @@ export const Videos = () => {
 								'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v'
 							);
 							setEstadoModal(true);
-						}}
-					>
+						}}>
 						<Image
 							className="h-full object-cover"
 							layout="responsive"
@@ -30,14 +29,12 @@ export const Videos = () => {
 							quality={100}
 							width={673}
 							height={362}
-							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-						></Image>
+							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 						<PlayIcon
 							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
 						<p
-							className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-						>
+							className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 							Conoce la Ciudad universitaria
 						</p>
 					</div>
@@ -60,8 +57,7 @@ export const Videos = () => {
 								'https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v'
 							);
 							setEstadoModal(true);
-						}}
-					>
+						}}>
 						<Image
 							className="h-full object-cover"
 							layout="responsive"
@@ -69,14 +65,12 @@ export const Videos = () => {
 							width={324}
 							height={167}
 							draggable={false}
-							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-						></Image>
+							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 						<PlayIcon
 							className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 						/>
 						<p
-							className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-						>
+							className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 							Saludo del Dr. Ramón García, rector de la UARM
 						</p>
 					</div>
@@ -110,14 +104,12 @@ export const Videos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 					<p
-						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-					>
+						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 						Saludo del premio nobel Mario Vargas Llosa
 					</p>
 				</div>
@@ -129,14 +121,12 @@ export const Videos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 					<p
-						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-					>
+						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 						Saludo del Dr. Ramón García, rector de la UARM
 					</p>
 				</div>
@@ -148,14 +138,12 @@ export const Videos = () => {
 						width={673}
 						height={362}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 					<p
-						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-					>
+						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 						Conoce la huaca sanmarquina
 					</p>
 				</div>
@@ -167,14 +155,12 @@ export const Videos = () => {
 						width={324}
 						height={167}
 						draggable={false}
-						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"
-					></Image>
+						src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rudy_Shady_png_ff8af3ef4e.png"></Image>
 					<PlayIcon
 						className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 					/>
 					<p
-						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
-					>
+						className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
 						Saludo de la Dra. Ruth Shady
 					</p>
 				</div>
