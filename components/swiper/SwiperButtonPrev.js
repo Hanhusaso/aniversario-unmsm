@@ -21,7 +21,7 @@ const SwiperButtonPrev = ({ setCount, max }) => {
 				}, 500);
 			}}
 			disabled={isDisabled}
-			className="flex justify-center items-center shadow-[0px_1px_4px_rgba(0,0,0,0.25)] rounded-lg absolute top-1/2 -translate-y-1/2 left-0 z-10 hover:bg-gris bg-blanco h-9 w-9">
+			className="flex justify-center items-center shadow-[0px_1px_4px_rgba(0,0,0,0.25)] rounded-lg absolute top-1/2 -translate-y-1/2 left-4 md:left-0 z-10 hover:bg-gris bg-blanco h-9 w-9">
 			<FlechaIzquierda />
 		</button>
 	);
