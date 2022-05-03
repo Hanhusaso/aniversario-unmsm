@@ -24,18 +24,18 @@ export const Interactivo = () => {
 							className="mb-4"
 						/>
 
-						<p className="bg-clip-text numero-brillo h-20 font-adelleHeavy font-semibold text-[78px] leading-tight text-transparent">
+						<p className="bg-clip-text numero-brillo h-20 2xl:h-[7.5rem] font-adelleHeavy font-semibold text-[78px] 2xl:text-[108px] leading-tight text-transparent">
 							471.°
 						</p>
-						<p className="font-adelleBold text-2xl mb-5">
+						<p className="font-adelleBold text-2xl 2xl:text-[32px] mb-5">
 							Aniversario
 						</p>
 
-						<p className="italic text-xl mb-4">
+						<p className="italic text-xl 2xl:text-[28px] mb-4">
 							¡San Marcos es el Perú!
 						</p>
-						<p className="text-lg">12 de mayo</p>
-						<p className="text-lg">1551-2022</p>
+						<p className="text-lg 2xl:text-[25px]">12 de mayo</p>
+						<p className="text-lg 2xl:text-[25px]">1551-2022</p>
 					</div>
 					<div className="hidden sm:block relative ">
 						<div className="-z-10 h-[12vh]"></div>
@@ -514,7 +514,7 @@ export const Interactivo = () => {
 								Barrenechea, María Luisa Aguilar, Julio C. Tello
 								y Santiago A. de Mayolo
 							</p>
-							<LineaDivision mt={5} mb={5} />
+							<LineaDivision mt={5} />
 						</div>
 					</div>
 				</div>
