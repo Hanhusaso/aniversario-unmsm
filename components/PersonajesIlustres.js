@@ -6,7 +6,7 @@ import FlechaAbajo from './icons/FlechaAbajo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
-import PersonajesContext from '../contexts/personajesContext';
+import PersonajesContext from '../contexts/personajeContext';
 
 export const PersonajesIlustres = () => {
 	const {
@@ -24,14 +24,15 @@ export const PersonajesIlustres = () => {
 
 	useEffect(() => {
 		setPersonajesIlustresRef(personajesIlustresRef);
-	}, [personajesIlustresRef]);
+	}, [personajesIlustresRef, setPersonajesIlustresRef]);
 
-	const scrollPersonajes = () => {
-		personajesIlustresRef.current.scrollIntoView({
-			behavior: 'smooth',
-			block: 'start',
-		});
-	};
+	// const scrollPersonajes = () => {
+	// 	personajesIlustresRef.current.scrollIntoView({
+	// 		behavior: 'smooth',
+	// 		block: 'start',
+	// 	});
+	// };
+	// console.log(sdsd);
 
 	return (
 		<>
@@ -49,7 +50,7 @@ export const PersonajesIlustres = () => {
 								La figura de hombres y mujeres que dejaron su
 								legado a futuras generaciones en los diversos
 								campos del conocimiento, engalana el afiche del
-								471° aniversario de la Universidad Nacional
+								471.° aniversario de la Universidad Nacional
 								Mayor de San Marcos (UNMSM) que conmemorará el
 								próximo 12 de mayo. A continuación, una breve
 								reseña que destaca los aportes de un grupo de
@@ -85,6 +86,7 @@ export const PersonajesIlustres = () => {
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
 								style={{ left: pers.desplazamiento }}>
 								<Image
+									alt={pers.nombres}
 									src={pers.imagenMiniatura}
 									width={230}
 									height={260}
@@ -121,6 +123,7 @@ export const PersonajesIlustres = () => {
 						<div className="mx-auto w-1/2 md:w-full">
 							<Image
 								src={personajeElegido.imagenGrande}
+								alt={personajeElegido.nombres}
 								width={431}
 								height={480}
 								layout="responsive"
