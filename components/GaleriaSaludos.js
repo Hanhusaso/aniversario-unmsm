@@ -46,6 +46,8 @@ export const GaleriaSaludos = () => {
 						slidesPerView={widthScreen < 460 ? 1 : 5}
 						centeredSlides={true}
 						loop={true}
+						allowTouchMove={false}
+
 						// loopFillGroupWithBlank={true}
 						// navigation
 					>
