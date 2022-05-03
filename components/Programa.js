@@ -93,7 +93,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start">
-										<RemembranzaButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2o0bTNlYThoZXNpN2U2anNxdnU1ajNmNDQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision mt={5} mb={5} />
 								</div>
@@ -120,7 +120,7 @@ export const Programa = () => {
 										Andahuaylas 348, Cercado de Lima.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<EnVivoButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGIwN2NsZ2o3bDE2dTM0c291ZWlqMmRuZHYgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision mt={5} mb={5} />
 								</div>
@@ -213,8 +213,7 @@ export const Programa = () => {
 					{!verCompleto && (
 						<div
 							className="pb-8 text-verdeClaro flex flex-col items-center justify-center cursor-pointer"
-							onClick={() => setVerCompleto(!verCompleto)}
-						>
+							onClick={() => setVerCompleto(!verCompleto)}>
 							<p className="text-rojo font-semibold hover:brightness-150">
 								Clic aquí para conocer todas las actividades
 							</p>
