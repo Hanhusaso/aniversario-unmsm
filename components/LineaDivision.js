@@ -1,6 +1,7 @@
-const LineaDivision = () => {
+const LineaDivision = ({ mt = 10, mb = 10 }) => {
 	return (
-		<div className="h-[1px] bg-verdeClaroTransparent mt-10 blur-[2px] mb-10"></div>
+		<div
+			className={`h-[1px] bg-verdeClaroTransparent mt-${mt} blur-[2px] mb-${mb}`}></div>
 	);
 };
 

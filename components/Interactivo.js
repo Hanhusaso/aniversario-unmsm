@@ -3,6 +3,7 @@ import PersonajesContext from '../contexts/personajesContext';
 import Image from 'next/image';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { useWindowSize } from '../utils/useWindowSize';
+import LineaDivision from './LineaDivision';
 
 export const Interactivo = () => {
 	const { scrollPersonajes, personajes, setPersonajes, setPersonajeElegido } =
@@ -501,6 +502,7 @@ export const Interactivo = () => {
 								Barrenechea, María Luisa Aguilar, Julio C. Tello
 								y Santiago A. de Mayolo
 							</p>
+							<LineaDivision mt={3} mb={3} />
 						</div>
 					</div>
 				</div>
