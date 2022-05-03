@@ -21,18 +21,22 @@ const Personaje = () => {
 
 	return (
 		personaje && (
-			<div className="bg-azulOscuro font-lato pb-48">
-				<div className="container mx-auto px-20 text-blanco pt-20 relative">
-					<div className="flex flex-row items-start">
-						<div className="basis-1/2 pr-14">
-							<div className="font-bold mb-8">
-								<h1 className="text-2xl">
-									{personaje.nombres}
-								</h1>
-								<div className="flex justify-between text-4xl items-center">
-									<h1 className="mr-2">
-										{personaje.apellidos}
+			<div className="bg-azulOscuro font-lato pb-24 lg:pb-48">
+				<div className="container mx-auto px-5 lg:px-20 text-blanco pt-20 relative">
+					<div className="flex flex-col lg:flex-row lg:items-start">
+						<div className="basis-1/2 lg:pr-14 mb-5 lg:mb-0">
+							<div className="relative flex justify-between items-end mb-8">
+								<div className="font-bold">
+									<h1 className="text-2xl">
+										{personaje.nombres}
 									</h1>
+									<div className=" text-4xl">
+										<h1 className="mr-2">
+											{personaje.apellidos}
+										</h1>
+									</div>
+								</div>
+								<div className="absolute right-0 top-2 lg:static lg:mb-1">
 									<AdornoDesarrolloPersonaje />
 								</div>
 							</div>
@@ -42,31 +46,34 @@ const Personaje = () => {
 								}}
 							/>
 						</div>
-						<div className="relative basis-1/2 px-14">
-							<Image
-								alt={personaje.nombres}
-								src={personaje.imgContenido}
-								width={630}
-								height={910}
-								layout="responsive"
-								draggable={false}
-								priority
-							/>
-							<div
-								className=" absolute bottom-0 inset-x-0 h-1/4"
-								style={{
-									background:
-										'linear-gradient(180deg, rgba(25, 29, 41, 0) 0%, rgba(25, 29, 41, 0.185825) 14.54%, rgba(25, 29, 41, 0.354756) 27.76%, rgba(25, 29, 41, 0.59865) 53.54%, rgba(25, 29, 41, 0.880677) 77.99%, #191D29 100%)',
-								}}></div>
-							<p className="absolute bottom-5 left-20 text-xs">
-								Fuente: <span>{personaje.fuenteImagen}</span>
-							</p>
+						<div className="basis-1/2 lg:px-14">
+							<div className="relative">
+								<Image
+									alt={personaje.nombres}
+									src={personaje.imgContenido}
+									width={630}
+									height={910}
+									layout="responsive"
+									draggable={false}
+									priority
+								/>
+								<div
+									className=" absolute bottom-0 inset-x-0 h-1/4"
+									style={{
+										background:
+											'linear-gradient(180deg, rgba(25, 29, 41, 0) 0%, rgba(25, 29, 41, 0.185825) 14.54%, rgba(25, 29, 41, 0.354756) 27.76%, rgba(25, 29, 41, 0.59865) 53.54%, rgba(25, 29, 41, 0.880677) 77.99%, #191D29 100%)',
+									}}></div>
+								<p className="absolute bottom-5 left-6 right-6 text-xs">
+									Fuente:{' '}
+									<span>{personaje.fuenteImagen}</span>
+								</p>
+							</div>
 						</div>
 					</div>
 					<div className="cursor-pointer">
 						<Link href="/#personajesIlustres">
 							<a>
-								<RegresarIcon className="absolute top-12 left-0" />
+								<RegresarIcon className="absolute top-10 lg:top-12 left-5 lg:left-0" />
 							</a>
 						</Link>
 					</div>
