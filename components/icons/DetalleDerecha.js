@@ -3,7 +3,7 @@ import React from 'react';
 const DetalleDerecha = () => {
 	return (
 		<svg
-			className="fill-blanco absolute right-0"
+			className="fill-blanco"
 			width="453"
 			height="37"
 			viewBox="0 0 453 37"
