@@ -31,6 +31,7 @@ export const PersonajesIlustres = () => {
 	// 		block: 'start',
 	// 	});
 	// };
+	// console.log(sdsd);
 
 	return (
 		<>
