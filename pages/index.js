@@ -9,13 +9,13 @@ import FooterAniversario from '../components/FooterAniversario';
 
 export default function Home() {
 	return (
-		<main className="font-lato">
+		<main className="font-lato bg-azulOscuro">
 			<Interactivo />
 			<Programa />
-			{/* <GaleriaSaludos />
+			<GaleriaSaludos />
 			<PersonajesIlustres />
 			<Videos />
-			<FooterAniversario /> */}
+			<FooterAniversario />
 		</main>
 	);
 }
