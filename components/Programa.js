@@ -17,11 +17,11 @@ export const Programa = () => {
 		<>
 			<div className="bg-azulOscuro bg-no-repeat bg-cover bg-programaHeader">
 				<div className="container mx-auto">
-					<div className="flex flex-row justify-start items-center h-36">
-						<p className="font-adelleBold font-semibold text-amarillo text-5xl mr-16 -translate-y-1">
+					<div className="grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:justify-start items-center h-36">
+						<p className="font-adelleBold font-semibold text-amarillo text-3xl md:text-5xl mr-16 -translate-y-1">
 							Programa
 						</p>
-						<p className="text-blanco font-semibold text-xl">
+						<p className="text-blanco font-semibold md:text-xl">
 							Disfruta de todas las actividades que tenemos para
 							<br />
 							celebrar nuestro 471.° años de fundación.
