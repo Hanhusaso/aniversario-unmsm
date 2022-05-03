@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import { PersonajesProvider } from '../contexts/personajesContext';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<PersonajesProvider>
+			<Component {...pageProps} />
+		</PersonajesProvider>
+	);
 }
 
-export default MyApp
+export default MyApp;

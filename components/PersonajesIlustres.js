@@ -1,32 +1,48 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useContext, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Triangulo from './icons/Triangulo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
+import PersonajesContext from '../contexts/personajesContext';
+
+import { useWindowSize } from '../utils/useWindowSize';
 
 export const PersonajesIlustres = () => {
+	const {
+		setPersonajesIlustresRef,
+		personajes,
+		setPersonajes,
+		personajeElegido,
+		setPersonajeElegido,
+	} = useContext(PersonajesContext);
+
+	const { width, height } = useWindowSize();
+
 	const [estadoModal, setEstadoModal] = useState(false);
 	const [modalData, setModalData] = useState(null);
 
-	const [personajeElegido, setPersonajeElegido] = useState(
-		personajesIlustresData[2]
-	);
-	const [personajes, setPersonajes] = useState(
-		personajesIlustresData.map((p) => {
-			if (p.id === 2) {
-				return {
-					...p,
-					seleccionado: true,
-				};
-			}
-			return p;
-		})
-	);
+	const personajesIlustresRef = useRef(null);
+
+	useEffect(() => {
+		setPersonajesIlustresRef(personajesIlustresRef);
+	}, [personajesIlustresRef]);
+
+	const scrollPersonajes = () => {
+		personajesIlustresRef.current.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start',
+		});
+	};
+
 	return (
 		<>
-			<div className="bg-gris" id="personajesIlustres">
+			<div
+				className="bg-gris"
+				id="personajesIlustres"
+				ref={personajesIlustresRef}
+			>
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
@@ -68,7 +84,8 @@ export const PersonajesIlustres = () => {
 									personajes[index].seleccionado &&
 									'opacity-50'
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
-								style={{ left: pers.desplazamiento }}>
+								style={{ left: pers.desplazamiento }}
+							>
 								<Image
 									src={pers.imagenMiniatura}
 									width={230}
@@ -119,7 +136,8 @@ export const PersonajesIlustres = () => {
 									);
 									setEstadoModal(true);
 								}}
-								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
+							>
 								<Triangulo className="mr-3" /> Ver saludo
 							</button>
 						)}
