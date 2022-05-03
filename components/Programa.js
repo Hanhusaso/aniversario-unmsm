@@ -216,7 +216,7 @@ export const Programa = () => {
 							<p className="text-rojo font-semibold hover:brightness-150">
 								Clic aquí para conocer todas las actividades
 							</p>
-							<FlechaAbajo />
+							<FlechaAbajo animate rojo />
 						</div>
 					)}
 
@@ -524,7 +524,7 @@ export const Programa = () => {
 					<p className="text-rojo font-semibold hover:brightness-150">
 						Clic aquí para conocer todas las actividades
 					</p>
-					<FlechaAbajo />
+					<FlechaAbajo animate rojo />
 				</div>
 			)}
 			{verCompleto && (

@@ -42,7 +42,7 @@ const personajesIlustresData = [
 	{
 		id: 2,
 		nombres: 'Mario',
-		apellidos: 'Vargas Lllosa',
+		apellidos: 'Vargas Llosa',
 		imagenMiniatura:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_sinsombra_8eba4b19c2.png?updated_at=2022-04-28T17:38:44.238Z',
 		desplazamiento: '40px',

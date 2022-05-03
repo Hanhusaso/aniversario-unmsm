@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Triangulo from './icons/Triangulo';
+import FlechaAbajo from './icons/FlechaAbajo';
 import personajesIlustresData from '../data/personajesIlustresData';
 import { Modal } from './Modal';
 import ReactPlayer from 'react-player';
@@ -98,14 +99,18 @@ export const PersonajesIlustres = () => {
 				</div>
 			</div>
 			<div className="px-4 md:px-0 pt-8 md:pt-0 bg-personajesIlustres bg-no-repeat bg-cover bg-azulDegradado">
-				<div className="block md:hidden">
+				<div className="block md:hidden relative bg-blanco rounded-lg z-0">
+					<div className="absolute right-5 top-1/2 -translate-y-1/2 z-[-1]">
+						<FlechaAbajo />
+					</div>
 					<select
-						className="w-full h-14 px-5 py-4 font-lato font-bold"
+						className="appearance-none w-full h-14 px-5 py-4 font-lato font-bold bg-transparent rounded-lg"
 						defaultValue={2}
 						onChange={(e) => {
 							setPersonajeElegido(personajes[e.target.value]);
 							console.log(e.target.value);
 						}}>
+						{/* <FlechaAbajo /> */}
 						{personajes.map((pers, index) => (
 							<option key={pers.nombres} value={index}>
 								{pers.nombres + ' ' + pers.apellidos}
