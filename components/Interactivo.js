@@ -16,6 +16,7 @@ export const Interactivo = () => {
 					{/* <div className=""> */}
 					<div className="z-10 info-page absolute top-12 left-1/2 -translate-x-1/2 text-center text-blanco font-adelleSemiBold">
 						<Image
+							alt="logo"
 							src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/logo_unmsm_landing_aniversario_b3ce276cc7.png"
 							width={263}
 							height={72}
@@ -72,6 +73,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[25.5vmax] left-[2.8vmax]">
 												<div className="contain-personaje per-1">
 													<Image
+														alt="Daniel Alcides Carrión"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/daniel_acides_31631bc9fb.png"
 														width={230}
 														height={260}
@@ -107,6 +109,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[19vmax] left-[4vmax]">
 												<div className="contain-personaje per-2">
 													<Image
+														alt="Rosa Alarco"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/rosa_alarco_597e1f76f3.png"
 														width={230}
 														height={260}
@@ -146,6 +149,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[7.5vmax] left-[2vmax]">
 												<div className="contain-personaje per-3">
 													<Image
+														alt="Jorge Basadre"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/jorge_basadre_largo_b180404627.png"
 														width={230}
 														height={388}
@@ -185,6 +189,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[3.6vmax] left-[1vmax]">
 												<div className="contain-personaje per-4">
 													<Image
+														alt="Ella Dunbar"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ella_dunbar_largo_860c346416.png"
 														width={230}
 														height={276}
@@ -224,6 +229,7 @@ export const Interactivo = () => {
 											<div className="relative right-[1vmax]">
 												<div className="contain-personaje per-5">
 													<Image
+														alt="Mario Vargas LLosa"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_llosa_ed9cc25bee.png"
 														width={230}
 														height={260}
@@ -265,6 +271,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[25.5vmax] right-[3.8vmax]">
 												<div className="contain-personaje per-10">
 													<Image
+														alt="Santiago Antunez de Mayolo"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/santiago_antunez_mayolo_57b772598a.png"
 														width={230}
 														height={260}
@@ -304,6 +311,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[20vmax] right-[4vmax]">
 												<div className="contain-personaje per-9">
 													<Image
+														alt="Julio C. Tello"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/julio_c_tello_64ea477221.png"
 														width={230}
 														height={260}
@@ -343,6 +351,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[13.5vmax] right-[4vmax]">
 												<div className="contain-personaje per-8">
 													<Image
+														alt="Maria Luisa Aguilar"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/maria_luisa_aguilar_491cc20598.png"
 														width={230}
 														height={260}
@@ -382,6 +391,7 @@ export const Interactivo = () => {
 											<div className="relative bottom-[6vmax] right-[3.5vmax]">
 												<div className="contain-personaje per-7">
 													<Image
+														alt="Raúl Porras"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_porras_ea2afebab3.png"
 														width={230}
 														height={260}
@@ -421,6 +431,7 @@ export const Interactivo = () => {
 											<div className="relative -bottom-[.2vmax] right-[1.5vmax]">
 												<div className="contain-personaje per-6">
 													<Image
+														alt="Ruth Shady"
 														src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_30bccf9fbd.png"
 														width={230}
 														height={260}
@@ -487,6 +498,7 @@ export const Interactivo = () => {
 					<div className="sm:hidden">
 						<div className="w-full">
 							<Image
+								alt="portada"
 								width={360}
 								height={604}
 								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/landing_aniversario_responsive_b101db2280.png"

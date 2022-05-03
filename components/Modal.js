@@ -40,7 +40,7 @@ export const Modal = ({ children, estado, setEstado }) => {
 
 	useEffect(() => {
 		setFirstRender(false);
-	}, []);
+	}, [setFirstRender]);
 
 	return (
 		<>

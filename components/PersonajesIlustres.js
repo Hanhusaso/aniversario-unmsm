@@ -27,22 +27,21 @@ export const PersonajesIlustres = () => {
 
 	useEffect(() => {
 		setPersonajesIlustresRef(personajesIlustresRef);
-	}, [personajesIlustresRef]);
+	}, [personajesIlustresRef, setPersonajesIlustresRef]);
 
-	const scrollPersonajes = () => {
-		personajesIlustresRef.current.scrollIntoView({
-			behavior: 'smooth',
-			block: 'start',
-		});
-	};
+	// const scrollPersonajes = () => {
+	// 	personajesIlustresRef.current.scrollIntoView({
+	// 		behavior: 'smooth',
+	// 		block: 'start',
+	// 	});
+	// };
 
 	return (
 		<>
 			<div
 				className="bg-gris"
 				id="personajesIlustres"
-				ref={personajesIlustresRef}
-			>
+				ref={personajesIlustresRef}>
 				<div className="container mx-auto px-24">
 					<div className="pt-16 flex items-start">
 						<h1 className="text-amarillo font-adelleBold font-semibold text-5xl mr-16 leading-none -translate-y-2">
@@ -84,9 +83,9 @@ export const PersonajesIlustres = () => {
 									personajes[index].seleccionado &&
 									'opacity-50'
 								} relative cursor-pointer col-span-1 hover:opacity-50`}
-								style={{ left: pers.desplazamiento }}
-							>
+								style={{ left: pers.desplazamiento }}>
 								<Image
+									alt={pers.nombres}
 									src={pers.imagenMiniatura}
 									width={230}
 									height={260}
@@ -109,6 +108,7 @@ export const PersonajesIlustres = () => {
 							draggable={false}
 							quality={100}
 							className="brightness-125"
+							alt={personajeElegido.nombres}
 						/>
 					</div>
 					<div className="w-[42%] ml-8 text-blanco">
@@ -136,8 +136,7 @@ export const PersonajesIlustres = () => {
 									);
 									setEstadoModal(true);
 								}}
-								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5"
-							>
+								className="flex justify-center items-center bg-rojoclaro py-2 px-3 rounded-lg mt-5">
 								<Triangulo className="mr-3" /> Ver saludo
 							</button>
 						)}

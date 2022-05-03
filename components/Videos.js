@@ -24,6 +24,7 @@ export const Videos = () => {
 								setEstadoModal(true);
 							}}>
 							<Image
+								alt=""
 								className="h-full object-cover"
 								layout="responsive"
 								draggable={false}
@@ -60,6 +61,7 @@ export const Videos = () => {
 								setEstadoModal(true);
 							}}>
 							<Image
+								alt=""
 								className="h-full object-cover"
 								layout="responsive"
 								quality={100}
@@ -99,6 +101,7 @@ export const Videos = () => {
 					</div>
 					<div className="col-span-3 row-span-1 relative cursor-pointer md:col-span-1 md:row-span-1">
 						<Image
+							alt=""
 							className="h-full object-cover"
 							layout="responsive"
 							quality={100}
@@ -116,6 +119,7 @@ export const Videos = () => {
 					</div>
 					<div className="col-span-6 row-span-2 relative cursor-pointer md:col-span-1 md:row-span-1">
 						<Image
+							alt=""
 							className="h-full object-cover"
 							layout="responsive"
 							quality={100}
@@ -133,6 +137,7 @@ export const Videos = () => {
 					</div>
 					<div className="col-span-3 row-span-1 relative cursor-pointer md:col-span-2 md:row-span-2">
 						<Image
+							alt=""
 							className="h-full object-cover"
 							layout="responsive"
 							quality={100}
@@ -150,6 +155,7 @@ export const Videos = () => {
 					</div>
 					<div className="col-span-3 row-span-1 relative cursor-pointer md:col-span-1 md:row-span-1">
 						<Image
+							alt=""
 							className="h-full object-cover"
 							layout="responsive"
 							quality={100}
