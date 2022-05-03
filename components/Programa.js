@@ -32,6 +32,7 @@ export const Programa = () => {
 					</div>
 				</div>
 			</div>
+
 			<div className="bg-gris">
 				<div className="container mx-auto">
 					<div id="dia1" className="pt-12 pb-8 text-verdeClaro">
@@ -92,7 +93,7 @@ export const Programa = () => {
 										Universitaria.
 									</p>
 									<div className="flex flex-row justify-start">
-										<RemembranzaButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2o0bTNlYThoZXNpN2U2anNxdnU1ajNmNDQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision mt={5} mb={5} />
 								</div>
@@ -119,7 +120,7 @@ export const Programa = () => {
 										Andahuaylas 348, Cercado de Lima.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<EnVivoButton />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGIwN2NsZ2o3bDE2dTM0c291ZWlqMmRuZHYgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision mt={5} mb={5} />
 								</div>
@@ -185,7 +186,7 @@ export const Programa = () => {
 										Piérola 1222.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmlsZG44N3Fqa2VuNTRxcmhlbmhzcWM0aDkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnV1a2UxbnUyM25vanQ0OWlwZTVnYmdmbTggYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 									<LineaDivision mt={5} mb={5} />
 								</div>
@@ -202,7 +203,7 @@ export const Programa = () => {
 										Ciudad Universitaria.
 									</p>
 									<div className="flex flex-row justify-start ">
-										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2drcDdjYjJjYXVwdGYyN2lzdm1vZXZkcmQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
+										<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2dha3FxdWZla2pjMzRwZWhkZGMzNjMxbmwgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 									</div>
 								</div>
 							</div>
@@ -244,7 +245,7 @@ export const Programa = () => {
 												Martín, Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MnJxampvN2w4N3A5cmM4bzIzaHE2Mjc5dmggYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -264,7 +265,7 @@ export const Programa = () => {
 												Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlmZmgwcGx2MW85dDdmN29jOXZ0OTdzYXYgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -282,7 +283,7 @@ export const Programa = () => {
 												Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NTc4MWcyamE3Z2twcmppbTY5amFmZjEzbTEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 										</div>
 									</div>
@@ -293,7 +294,8 @@ export const Programa = () => {
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
 											<AgendaIcon className="mr-2" />
-											Día 4 | Miércoles 12 de mayo
+											Día 4 | Jueves 12 de mayo – Día
+											Central del 471.° aniversario
 										</h1>
 										<HorarioPrograma className="col-span-2 md:col-span-1 mb-2">
 											09:00 horas
@@ -310,7 +312,7 @@ export const Programa = () => {
 												Carabaya, Cercado de Lima.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NXJhMzUyYm43am0zbGFuanEwNWhkcGszdmEgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -330,7 +332,7 @@ export const Programa = () => {
 												Cercado de Lima.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmlsZG44N3Fqa2VuNTRxcmhlbmhzcWM0aDkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -341,7 +343,11 @@ export const Programa = () => {
 										<div className="col-span-2 md:col-span-1 text-sm">
 											<h1 className="mb-3 font-semibold text-base text-verdeOscuro ">
 												Sesión Solemne por el 471.°
-												aniversario de la UNMSM
+												aniversario de la UNMSM.
+												Discurso de orden a cargo de la
+												doctora Ruth Shady Solís,
+												arqueóloga y docente
+												extraordinaria.
 											</h1>
 											<p className="text-xs flex flex-row font-semibold">
 												<MapIcon className="mr-2" />
@@ -350,7 +356,7 @@ export const Programa = () => {
 												Nicolás de Piérola 1222.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2drcDdjYjJjYXVwdGYyN2lzdm1vZXZkcmQgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 										</div>
 									</div>
@@ -379,7 +385,7 @@ export const Programa = () => {
 												UNMSM, Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm5oNmIyNmJnaGplMGQ1cWVxNW01Yjk3ZmkgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -398,7 +404,7 @@ export const Programa = () => {
 												Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDNuaWV2cjQ1aTNnNnFhMDQyYjcxMmVncm8gYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 											<LineaDivision mt={5} mb={5} />
 										</div>
@@ -415,7 +421,7 @@ export const Programa = () => {
 												Ciudad Universitaria.
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=M3BmY2VvdDVxa3AzbjU3Z2dkMHNuZGU1MXAgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 										</div>
 									</div>
@@ -426,7 +432,7 @@ export const Programa = () => {
 									<div className="grid grid-cols-[130px_auto]">
 										<h1 className="col-span-2 mb-6 flex items-center flex-row text-grisOscuroTitulos font-bold text-xl">
 											<AgendaIcon className="mr-2" />
-											Día 6 | Miércoles 14 de mayo
+											Día 6 | Sábado 14 de mayo
 										</h1>
 										<HorarioPrograma className="col-span-2 md:col-span-1 mb-2">
 											09:00 horas
@@ -441,7 +447,7 @@ export const Programa = () => {
 												Juan de Lurigancho
 											</p>
 											<div className="flex flex-row justify-start ">
-												<CalendarButton />
+												<CalendarButton link="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTcxamFibjEzdTFyYmI0cDE5NmY5OHJvOGMgYWsxdGhpYTZzbXQzcm1udGdsbXBmZjNoYmtAZw&tmsrc=ak1thia6smt3rmntglmpff3hbk%40group.calendar.google.com" />
 											</div>
 										</div>
 									</div>
