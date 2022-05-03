@@ -2,13 +2,13 @@ import React, { useContext } from 'react';
 import PersonajesContext from '../contexts/personajesContext';
 import Image from 'next/image';
 import personajesIlustresData from '../data/personajesIlustresData';
-import { useWindowSize } from '../utils/useWindowSize';
+
 import LineaDivision from './LineaDivision';
 
 export const Interactivo = () => {
 	const { scrollPersonajes, personajes, setPersonajes, setPersonajeElegido } =
 		useContext(PersonajesContext);
-	// const { width, height } = useWindowSize();
+
 	return (
 		<>
 			<section className="interactivo relative bg-azulOscuro sm:bg-rojo bg-[url('https://biologia-unmsm.s3.us-east-2.amazonaws.com/fondo_rojo_home_4cf574a57b.png')] bg-[length:100%]">
