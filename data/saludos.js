@@ -205,6 +205,15 @@ const saludos = [
 	},
 	{
 		id: 25,
+		nombre: 'Dr. Marco Martos Carrera',
+		biodata:
+			'Presidente de la Academia Peruana de la Lengua. Sanmarquino ilustre',
+		cita: 'Resulta importante señalar que la fundación de esta Institución significó también lo que en esa época [El Virreinato] se llamaba ‘Una defensa a los naturales’, y corresponde a la Universidad iniciar los estudios de gramática de las lenguas que existían en América, principalmente el quechua, el aimara y el mochica; nada de esto hubiera ocurrido si la Universidad no se hubiera fundado en ese momento',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/marco_martos_carrera_unmsm_aniversario_61ce27d3e6.png?updated_at=2022-05-03T16:55:06.768Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Marco+Martos+Carrera.mp4',
+	},
+	{
+		id: 26,
 		nombre: 'Dr. Pieter Van Dalen Luna',
 		biodata:
 			'Director General de Investigación y Estudios sobre Turismo y Artesanía de MINCETUR',
@@ -213,7 +222,7 @@ const saludos = [
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Dr.+Pieter+Van+Dalen+Luna.mp4',
 	},
 	{
-		id: 26,
+		id: 27,
 		nombre: 'Arqueol. Henry Tantalean - Arqueol. Carito Tavera',
 		biodata:
 			'Equipo del Programa Arqueológico Valle de Chicama- EP Arqueología de la Facultad de Ciencias Sociales',
