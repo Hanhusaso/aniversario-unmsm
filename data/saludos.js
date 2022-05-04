@@ -184,7 +184,7 @@ const saludos = [
 		biodata:
 			'Vicepresidenta y Fundadora de la Asociación Peruana de Estudiantes de Educación Física',
 		cita: '',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jose_maria_chema_salcedo_unmsm_aniversario_85086d19c4.png?updated_at=2022-05-03T16:55:06.262Z',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/katherine_berrocal_unmsm_aniversario_c7a9579eee.png?updated_at=2022-05-03T16:55:06.385Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Katherine+Berrocal.mp4',
 	},
 	{
