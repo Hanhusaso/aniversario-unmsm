@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import DetalleDerecha from './icons/DetalleDerecha';
+import AdornoDesarrolloPersonaje from './icons/AdornoDesarrolloPersonaje';
 import MapIcon from './icons/MapIcon';
 
 import RemembranzaButton from './buttons/RemembranzaButton';
@@ -26,8 +27,11 @@ export const Programa = () => {
 							<br className="hidden sm:block" />
 							celebrar nuestro 471.° años de fundación.
 						</p>
-						<div className="col-span-1 static md:absolute right-0 overflow-hidden">
+						<div className="col-span-1 hidden md:block static md:absolute right-0 overflow-hidden">
 							<DetalleDerecha />
+						</div>
+						<div className="col-span-1 md:hidden static md:absolute right-0 overflow-hidden flex justify-end">
+							<AdornoDesarrolloPersonaje />
 						</div>
 					</div>
 				</div>
