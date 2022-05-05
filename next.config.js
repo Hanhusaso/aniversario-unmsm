@@ -5,6 +5,7 @@ const nextConfig = {
 		domains: [
 			'biologia-unmsm.s3.us-east-2.amazonaws.com',
 			'https://afroperuanos.s3.us-east-2.amazonaws.com',
+			'https://www.youtube.com',
 		],
 	},
 };

@@ -48,7 +48,7 @@ export const Modal = ({ children, estado, setEstado }) => {
 				id="modal-component-container"
 				ref={modalContainer}
 				className="z-40 fixed inset-0 hidden">
-				<div className="modal-flex-container flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+				<div className="modal-flex-container flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 					<div
 						onClick={() => setEstado(false)}
 						className="modal-bg-container fixed inset-0 bg-azulOscuro/75"></div>
