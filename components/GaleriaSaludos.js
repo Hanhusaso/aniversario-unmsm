@@ -31,7 +31,8 @@ export const GaleriaSaludos = () => {
 		widthScreen && (
 			<div id="galeriaDeSaludos" className="bg-blanco pt-[3.625rem] pb-8">
 				<div className="flex flex-col items-center justify-center">
-					<h1 className="text-amarillo font-adelleBold font-semibold text-5xl pb-1 px-2 text-center">
+					{/* <h1 className="text-amarillo font-adelleBold font-semibold text-5xl pb-1 px-2 text-center"> */}
+					<h1 className="px-10 md:px-0 text-center text-amarillo mb-5 lg:mb-0 font-adelleBold font-semibold text-3xl md:text-5xl leading-none">
 						Galería de Saludos
 					</h1>
 					<p className="pb-8">

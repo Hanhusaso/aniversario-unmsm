@@ -43,7 +43,7 @@ export const PersonajesIlustres = () => {
 				<div className="container mx-auto">
 					<div className="mx-4 lg:mx-24">
 						<div className="pt-11 lg:pt-16 flex flex-col lg:flex-row">
-							<h1 className="text-amarillo mb-2 lg:mb-0 font-adelleBold font-semibold text-4xl md:text-5xl mr-16 leading-none translate-y-0 lg:-translate-y-2">
+							<h1 className="text-amarillo mb-2 lg:mb-0 font-adelleBold font-semibold text-3xl md:text-5xl mr-16 leading-none translate-y-0 lg:-translate-y-2">
 								Personajes ilustres
 							</h1>
 							<p className="pb-8 md:pb-16">

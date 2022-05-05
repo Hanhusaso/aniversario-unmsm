@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import DetalleDerecha from './icons/DetalleDerecha';
+import AdornoDesarrolloPersonaje from './icons/AdornoDesarrolloPersonaje';
 import MapIcon from './icons/MapIcon';
 
 import RemembranzaButton from './buttons/RemembranzaButton';
@@ -18,7 +19,8 @@ export const Programa = () => {
 			<div className="bg-azulOscuro bg-no-repeat bg-cover bg-programaHeader">
 				<div className="container mx-auto">
 					<div className="p-5 pb-8 md:p-0 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:justify-start items-center md:h-36">
-						<p className="col-span-1 font-adelleBold font-semibold text-amarillo text-3xl md:text-5xl md:mr-16 md:-translate-y-1">
+						{/* <p className="col-span-1 font-adelleBold font-semibold text-amarillo text-3xl md:text-5xl md:mr-16 md:-translate-y-1"> */}
+						<p className="col-span-1 text-amarillo lg:mb-0 font-adelleBold font-semibold text-3xl md:text-5xl leading-none md:mr-16 md:-translate-y-1">
 							Programa
 						</p>
 						<p className="col-span-2 col-start-1 row-start-2 text-blanco font-semibold md:text-xl">
@@ -26,8 +28,11 @@ export const Programa = () => {
 							<br className="hidden sm:block" />
 							celebrar nuestro 471.° años de fundación.
 						</p>
-						<div className="col-span-1 static md:absolute right-0 overflow-hidden">
+						<div className="col-span-1 hidden md:block static md:absolute right-0 overflow-hidden">
 							<DetalleDerecha />
+						</div>
+						<div className="col-span-1 md:hidden static md:absolute right-0 overflow-hidden flex justify-end">
+							<AdornoDesarrolloPersonaje />
 						</div>
 					</div>
 				</div>
