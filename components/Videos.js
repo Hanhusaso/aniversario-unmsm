@@ -9,7 +9,7 @@ export const Videos = () => {
 	return (
 		<div className="bg-blanco">
 			<div className="px-4 py-4 md:container mx-auto md:py-10 md:px-20">
-				<h2 className="text-center text-5xl text-amarillo mb-12 font-bold">
+				<h2 className="text-center text-amarillo mb-12 font-adelleBold font-semibold text-4xl md:text-5xl">
 					Videos de aniversario
 				</h2>
 
