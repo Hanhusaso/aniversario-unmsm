@@ -8,8 +8,8 @@ export const Videos = () => {
 	const [modalData, setModalData] = useState(null);
 	return (
 		<div className="bg-blanco">
+
 			<div className="px-4 py-8 md:container mx-auto md:py-10 md:px-20">
-				{/* <h2 className="text-center text-5xl text-amarillo mb-6 md:mb-12 font-bold font-adelleBold"> */}
 				<h2 className="px-10 md:px-0 text-center text-amarillo mb-5 font-adelleBold font-semibold text-3xl md:text-5xl leading-none">
 					Videos de aniversario
 				</h2>
