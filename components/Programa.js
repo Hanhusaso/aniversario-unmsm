@@ -23,7 +23,7 @@ export const Programa = () => {
 						</p>
 						<p className="col-span-2 col-start-1 row-start-2 text-blanco font-semibold md:text-xl">
 							Disfruta de todas las actividades que tenemos para
-							<br />
+							<br className="hidden sm:block" />
 							celebrar nuestro 471.° años de fundación.
 						</p>
 						<div className="col-span-1 static md:absolute right-0 overflow-hidden">
