@@ -14,7 +14,7 @@ export default function Home() {
 			<Programa />
 			<GaleriaSaludos />
 			<PersonajesIlustres />
-			{/* <Videos /> */}
+			<Videos />
 			<FooterAniversario />
 		</main>
 	);
