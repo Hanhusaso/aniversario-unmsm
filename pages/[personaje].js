@@ -1,10 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import AdornoDesarrolloPersonaje from '../components/icons/AdornoDesarrolloPersonaje';
 import RegresarIcon from '../components/icons/RegresarIcon';
+import SwiperButtonNext from '../components/swiper/SwiperButtonNext';
+import SwiperButtonPrev from '../components/swiper/SwiperButtonPrev';
 import personajesIlustresData from '../data/personajesIlustresData';
+import saludos from '../data/saludos';
+import PlayIcon from '../components/icons/PlayIcon';
 
 const Personaje = () => {
 	const router = useRouter();
@@ -18,11 +27,20 @@ const Personaje = () => {
 			});
 		}
 	}, [router.isReady, router.query.personaje]);
+	const [count, setCount] = useState(0);
+	const [estadoModal, setEstadoModal] = useState(false);
+	const [modalData, setModalData] = useState(null);
+
+	const [widthScreen, setWidthScreen] = useState(null);
+
+	useEffect(() => {
+		setWidthScreen(window.innerWidth);
+	}, []);
 
 	return (
 		personaje && (
-			<div className="bg-azulOscuro font-lato pb-24 lg:pb-48">
-				<div className="container mx-auto px-5 lg:px-20 text-blanco pt-20 relative">
+			<div className="text-blanco bg-azulOscuro font-lato pb-24 lg:pb-48">
+				<div className="container mx-auto px-5 lg:px-20 pt-20 relative">
 					<div className="flex flex-col lg:flex-row lg:items-start">
 						<div className="basis-1/2 lg:pr-14 mb-5 lg:mb-0">
 							<div className="relative flex justify-between items-end mb-8">
@@ -77,6 +95,113 @@ const Personaje = () => {
 							</a>
 						</Link>
 					</div>
+				</div>
+				<div className="container mx-auto px-20 relative mt-8">
+					<p className="text-3xl font-semibold">Archivos inéditos</p>
+					<Swiper
+						spaceBetween={17}
+						slidesPerView={widthScreen < 460 ? 1 : 4}
+						// centeredSlides={true}
+						loop={true}
+						allowTouchMove={false}>
+						<SwiperButtonPrev
+							setCount={setCount}
+							max={saludos.length - 1}
+						/>
+						{personaje.imagenesIndeditas.map((imagen) => {
+							return (
+								<SwiperSlide key={imagen.titulo}>
+									<div
+										className={`relative cursor-pointer`}
+										onMouseEnter={() => {
+											setTimeout(() => {
+												setPersonaje({
+													...personaje,
+													imagenesIndeditas:
+														personaje.imagenesIndeditas.map(
+															(img) => {
+																if (
+																	img.titulo ===
+																	imagen.titulo
+																) {
+																	return {
+																		...img,
+																		visible: true,
+																	};
+																}
+																return img;
+															}
+														),
+												});
+											}, 200);
+										}}
+										onMouseLeave={() => {
+											setPersonaje({
+												...personaje,
+												imagenesIndeditas:
+													personaje.imagenesIndeditas.map(
+														(img) => {
+															if (
+																img.titulo ===
+																imagen.titulo
+															) {
+																return {
+																	...img,
+																	visible: false,
+																};
+															}
+															return img;
+														}
+													),
+											});
+										}}
+										// onClick={() => {
+										// 	setModalData(`${saludo.video}`);
+										// 	setEstadoModal(true);
+										// }}
+									>
+										<div
+											className={`mx-auto relative cursor-pointer h-[23rem]
+													px-[0.5625rem] translate-y-3 ${imagen.visible && 'opacity-30'}
+												`}>
+											<Image
+												alt={imagen.titulo}
+												src={imagen.url}
+												objectFit="cover"
+												layout="fill"
+												// layout="responsive"
+												quality={100}
+												// width={2336}
+												// height={1616}
+												className="w-full h-full"
+											/>
+										</div>
+										{imagen.visible && (
+											<div className="font-medium absolute top-1/4 translate-y-5 text-center text-blanco w-full px-10">
+												<div className="">
+													<p className="text-sm">
+														{imagen.titulo}
+													</p>
+													<p className="mt-3 text-xs line-clamp-3">
+														Fuente:&nbsp;
+														{imagen.fuente}
+													</p>
+													<p className="mt-3 text-xs">
+														Compilador:&nbsp;
+														{imagen.compilador}
+													</p>
+												</div>
+											</div>
+										)}
+									</div>
+								</SwiperSlide>
+							);
+						})}
+						<SwiperButtonNext
+							setCount={setCount}
+							max={saludos.length - 1}
+						/>
+					</Swiper>
 				</div>
 			</div>
 		)
