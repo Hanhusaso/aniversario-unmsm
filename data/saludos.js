@@ -230,6 +230,23 @@ const saludos = [
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/arqueol_henry_tantalean_unmsm_aniversario_8642e1ecbc.png?updated_at=2022-05-03T16:55:08.612Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Arqueol.+Henry+Tantalean+-+Arqueol.+Carito+Tavera.mp4',
 	},
+	{
+		id: 28,
+		nombre: 'Yuri Cavero Palomino',
+		biodata:
+			'Docente de la EP. Conservación y Restauración - FLCH. Docente de la EP Arqueología - Fac. Ciencias Sociales',
+		cita: '“Y qué mejor manera de celebrar este Aniversario volviendo a la normalidad con los cursos-talleres; ya pasada la pandemia, vamos a reencontrarnos los sanmarquinos y poder ejercer nuestra función académica y de formación profesional en las aulas universitarias”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/yuri_cavero_palomino_unmsm_aniversario_51430e7933.png?updated_at=2022-05-09T21:07:02.514Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Yuri+Cavero+Palomino.mp4',
+	},
+	{
+		id: 29,
+		nombre: 'Raul Franco Ochoa',
+		biodata: 'Escultor de la Estatua de Fray Tomás de San Martín',
+		cita: '“Deseo que la Universidad siga siendo esa luz que ilumina la educación en el Perú”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_franco_ochoa_unmsm_aniversario_562a4cc4db.png?updated_at=2022-05-09T21:17:50.812Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Raul+Franco+Ochoa.mp4',
+	},
 ];
 
 export default saludos;
