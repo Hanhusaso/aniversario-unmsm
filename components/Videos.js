@@ -8,7 +8,6 @@ export const Videos = () => {
 	const [modalData, setModalData] = useState(null);
 	return (
 		<div className="bg-blanco">
-
 			<div className="px-4 py-8 md:container mx-auto md:py-10 md:px-20">
 				<h2 className="px-10 md:px-0 text-center text-amarillo mb-5 font-adelleBold font-semibold text-3xl md:text-5xl leading-none">
 					Videos de aniversario
@@ -22,7 +21,8 @@ export const Videos = () => {
 									'https://www.youtube.com/embed/1cXpVlqm99c'
 								);
 								setEstadoModal(true);
-							}}>
+							}}
+						>
 							<Image
 								alt=""
 								className="h-full object-cover"
@@ -31,12 +31,14 @@ export const Videos = () => {
 								quality={100}
 								width={673}
 								height={362}
-								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/nuestra_universidad_videos_aniversario_df7b9b4a73.png?updated_at=2022-05-04T19:54:48.222Z"></Image>
+								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/nuestra_universidad_videos_aniversario_df7b9b4a73.png?updated_at=2022-05-04T19:54:48.222Z"
+							></Image>
 							<PlayIcon
 								className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 							/>
 							<p
-								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
+								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
+							>
 								¡Nuestra universidad, la universidad de todas
 								las sangres celebra 471 años!
 							</p>
@@ -49,7 +51,8 @@ export const Videos = () => {
 									'https://www.youtube.com/embed/Hmf_5-jYdR8'
 								);
 								setEstadoModal(true);
-							}}>
+							}}
+						>
 							<Image
 								alt=""
 								className="h-full object-cover"
@@ -58,12 +61,14 @@ export const Videos = () => {
 								width={324}
 								height={167}
 								draggable={false}
-								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/historia_fray_san_martin_videos_aniversario_d7da7030e2.png?updated_at=2022-05-04T19:41:29.745Z"></Image>
+								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/historia_fray_san_martin_videos_aniversario_d7da7030e2.png?updated_at=2022-05-04T19:41:29.745Z"
+							></Image>
 							<PlayIcon
 								className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 							/>
 							<p
-								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
+								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
+							>
 								La historia detrás de la estatua de Fray Tomás
 								de San Martin
 							</p>
@@ -73,10 +78,11 @@ export const Videos = () => {
 						<div
 							onClick={() => {
 								setModalData(
-									'https://www.youtube.com/embed/cC66g7rC8yc'
+									'https://www.youtube.com/embed/2HBLCDdZHSM'
 								);
 								setEstadoModal(true);
-							}}>
+							}}
+						>
 							<Image
 								alt=""
 								className="h-full object-cover"
@@ -85,14 +91,48 @@ export const Videos = () => {
 								width={324}
 								height={167}
 								draggable={false}
-								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/legado_plateria_san_marcos_videos_aniversario_b9771aaebd.png?updated_at=2022-05-04T19:43:37.481Z"></Image>
+								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/legado_plateria_san_marcos_videos_aniversario_b9771aaebd.png?updated_at=2022-05-04T19:43:37.481Z"
+							></Image>
 							<PlayIcon
 								className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
 							/>
 							<p
-								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}>
+								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
+							>
 								Legado en Platería de San Marcos ¿Dónde se
 								encuentran y quien las custodia?
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="grid grid-cols-2 md:grid-cols-3  grid-rows-1 md:grid-rows-1 gap-4 mb-4">
+					<div className="col-span-2 row-span-2 relative cursor-pointer md:col-span-1 md:row-span-1">
+						<div
+							onClick={() => {
+								setModalData(
+									'https://www.youtube.com/embed/f_er2f3LOjY'
+								);
+								setEstadoModal(true);
+							}}
+						>
+							<Image
+								alt=""
+								className="h-full object-cover"
+								layout="responsive"
+								quality={100}
+								width={324}
+								height={167}
+								draggable={false}
+								src="https://biologia-unmsm.s3.us-east-2.amazonaws.com/afiche_aniversario_unmsm_471_videos_aniversario_00b7017d68.png?updated_at=2022-05-09T16:02:53.189Z"
+							></Image>
+							<PlayIcon
+								className={`fill-blanco absolute right-1/2 top-1/2 -translate-y-1/2 translate-x-[18px]`}
+							/>
+							<p
+								className={`text-xs md:text-sm text-blanco absolute bottom-0 left-0 p-4`}
+							>
+								¿Cómo se elaboró el afiche del aniversario?
+								Conoce todo el proceso aquí
 							</p>
 						</div>
 					</div>
@@ -107,7 +147,8 @@ export const Videos = () => {
 								title="YouTube video player"
 								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowFullScreen></iframe>
+								allowFullScreen
+							></iframe>
 						) : (
 							<></>
 						))}
