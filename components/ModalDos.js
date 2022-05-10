@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-export const Modal = ({ children, estado, setEstado }) => {
+export const ModalDos = ({ children, estado, setEstado }) => {
 	const [firstRender, setFirstRender] = useState(true);
 
 	const modalContainer = useRef(null);
@@ -48,18 +48,18 @@ export const Modal = ({ children, estado, setEstado }) => {
 				id="modal-component-container"
 				ref={modalContainer}
 				className="z-40 fixed inset-0 hidden">
-				<div className="modal-flex-container flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-					<div
-						onClick={() => setEstado(false)}
-						className="modal-bg-container fixed inset-0 bg-azulOscuro/75"></div>
-					<div className="modal-space-container hidden sm:inline-block sm:align-middle sm:h-screen">
+				<div
+					onClick={() => setEstado(false)}
+					className="flex items-center justify-center min-h-screen">
+					<div className="modal-bg-container fixed inset-0 bg-azulOscuro/90"></div>
+					{/* <div className="modal-space-container hidden sm:inline-block sm:align-middle sm:h-screen">
 						&nbsp;
-					</div>
+					</div> */}
 					<div
 						id="modal-container"
 						ref={modal}
-						className="modal-container max-h-full inline-block  align-bottom text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl w-full">
-						<div className="modal-wrapper">{children}</div>
+						className="flex justify-center items-center h-screen shadow-xl transform transition-all w-full">
+						{children}
 					</div>
 				</div>
 			</div>
