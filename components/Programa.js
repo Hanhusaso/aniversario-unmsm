@@ -162,7 +162,7 @@ export const Programa = () => {
 									Conferencias magistrales
 								</p>
 								<HorarioPrograma className="col-span-2 md:col-span-1 mb-2">
-									16:00 horas
+									10:00 horas
 								</HorarioPrograma>
 								<div className="col-span-2 md:col-span-1 text-sm">
 									<ul className="list-disc pl-4">
@@ -275,7 +275,7 @@ export const Programa = () => {
 											<LineaDivision mt={5} mb={5} />
 										</div>
 										<HorarioPrograma className="col-span-2 md:col-span-1 mb-2">
-											14:00 horas
+											19:00 horas
 										</HorarioPrograma>
 										<div className="col-span-2 md:col-span-1 text-sm">
 											<h1 className="mb-3 font-semibold text-base text-verdeOscuro ">
@@ -440,7 +440,7 @@ export const Programa = () => {
 											Día 6 | Sábado 14 de mayo
 										</h1>
 										<HorarioPrograma className="col-span-2 md:col-span-1 mb-2">
-											09:00 horas
+											08:00 horas
 										</HorarioPrograma>
 										<div className="col-span-2 md:col-span-1 text-sm">
 											<h1 className="mb-3 font-semibold text-base text-verdeOscuro">
