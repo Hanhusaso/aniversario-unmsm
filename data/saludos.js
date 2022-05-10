@@ -247,6 +247,81 @@ const saludos = [
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/raul_franco_ochoa_unmsm_aniversario_562a4cc4db.png?updated_at=2022-05-09T21:17:50.812Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Raul+Franco+Ochoa.mp4',
 	},
+	{
+		id: 30,
+		nombre: 'Sr. Hanuk Chung',
+		biodata:
+			'Ministro Consejero de la Embajada de la República Corea en el Perú',
+		cita: '“Para mí, es la vez primera en visitar la Universidad, pero estando en otros países latinoamericanos he oído muchas veces de la reputación de la Universidad que representa el Perú”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hanuk_chung_unmsm_aniversario_8c9963e132.png?updated_at=2022-05-10T04:38:03.193Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Sr.+Hanuk+Chung.mp4',
+	},
+	{
+		id: 31,
+		nombre: 'Dr. Hugo Oscar Juri',
+		biodata: 'Rector de la Universidad Nacional de Córdoba - Argentina',
+		cita: '“Es un placer participar, aunque sea de manera virtual, de esta ceremonia que por primera vez en la historia, de esta la más antigua de la Universidades de América tiene una Rectora mujer; lo cual es un orgullo para todos nosotros, los latinoamericanos”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_oscar_juri_unmsm_aniversario_4084aa2cea.png?updated_at=2022-05-10T04:38:03.225Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Hugo+Oscar+Juri.mp4',
+	},
+	{
+		id: 32,
+		nombre: 'Dra. Lida Asencios Trujillo',
+		biodata: 'Rectora de la UNE',
+		cita: '“Hago extensivo este cálido saludo a lo docentes sanmarquinos, estudiantes, egresados y personal administrativo, deseándoles el mejor de los éxitos para que continúen con la noble misión de formar profesionales líderes de excelencia académica con sentido humanístico, equidad, igualdad y responsabilidad social”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/lida_asencios_trujillo_unmsm_aniversario_a40609ae1d.png?updated_at=2022-05-10T04:38:04.627Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Lida+Asencios+Trujillo.mp4',
+	},
+	{
+		id: 33,
+		nombre: 'Tuna Universidad Nacional Mayor de San Marcos',
+		biodata: 'Los representantes más engreídos de la UNMSM',
+		cita: '“La Tuna universitaria de San Marcos y la Tuna de Medicina Veterinaria queremos mandar saludos en este día a las autoridades y a todos y a cada uno de los estudiantes de San Marcos, en este nuestro aniversario, por los 471 años de nuestra amada Universidad”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/tuna_universidad_nacional_san_marcos_unmsm_aniversario_347d3e24f4.png?updated_at=2022-05-10T04:38:06.028Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/_Tuna+Universidad+Nacional+Mayor+de+San+Marcos.mp4',
+	},
+	{
+		id: 34,
+		nombre: 'Dra. Antonia Castro Rodriguez',
+		biodata:
+			'Jefa de la Oficina Central de Calidad Académica y Acreditación - OCCAA',
+		cita: '“Desde la oficina de Calidad, les podemos dar el mensaje de seguir construyendo, de seguir trabajando por una Universidad de calidad”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/antonia_castro_rodriguez_unmsm_aniversario_2bd4064256.png?updated_at=2022-05-10T04:38:02.886Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Dra.+Antonia+Castro+Rodr%C3%ADguez.mp4',
+	},
+	{
+		id: 35,
+		nombre: 'Roberto Sánchez Palomino',
+		biodata: 'Ministro de Comercio Exterior y Turismo del Perú',
+		cita: '“Es realmente un Aniversario emblemático, pero también muy desafiante para que San Marcos siga siendo ese baluarte del humanismo, de ciencia y propositivo sobre todo para los grandes problemas del país”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/roberto_sanchez_palomino_unmsm_aniversario_ab4d5ed145.png?updated_at=2022-05-10T04:38:05.039Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Roberto+S%C3%A1nchez+Palomino.mp4',
+	},
+	{
+		id: 36,
+		nombre: 'Dr. Carlos Aquino Rodríguez',
+		biodata:
+			'Director del Centro de Estudios Asiáticos - CEAS UNMSM. Especialista en economía asiática',
+		cita: '“A través del Centro de Estudios Asiáticos estamos poniendo nuestro granito de arena para que San Marcos sea, cada vez, una mejor Universidad”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carlos_aquino_rodriguez_unmsm_aniversario_4b5f76b3e0.png?updated_at=2022-05-10T04:38:03.073Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/+Dr.+Carlos+Aquino+Rodr%C3%ADguez.mp4',
+	},
+	{
+		id: 37,
+		nombre: 'Dra. América Odar Rosario',
+		biodata: 'Rectora de la Universidad Nacional del Santa - UNS',
+		cita: '“San Marcos es un emblema en el Perú, que es reconocida no solo en el Perú, sino fuera de él; y es un referente para todas las universidades por la calidad que ofrece”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/america_odar_rosario_unmsm_aniversario_a0de71c42c.png?updated_at=2022-05-10T04:38:02.779Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Am%C3%A9rica+Odar+Rosario.mp4',
+	},
+	{
+		id: 38,
+		nombre: 'Tuna femenina de la Universidad Nacional de San Marcos',
+		biodata: 'Primera Tuna Femenina del Perú',
+		cita: '“Nos sentimos orgullosas de representar a una Institución que, a través de la historia, continúa firme en su compromiso con la educación, la ciencia, la cultura y el arte”',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/tuna_femenina_unmsm_aniversario_93450553dd.png?updated_at=2022-05-10T04:38:05.747Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Tuna+Femenina+de+la+Universidad+Nacional+de+San+Marcos.mp4',
+	},
 ];
 
 export default saludos;
