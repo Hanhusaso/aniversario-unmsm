@@ -1,10 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import AdornoDesarrolloPersonaje from '../components/icons/AdornoDesarrolloPersonaje';
 import RegresarIcon from '../components/icons/RegresarIcon';
+import SwiperButtonNext from '../components/swiper/SwiperButtonNext';
+import SwiperButtonPrev from '../components/swiper/SwiperButtonPrev';
 import personajesIlustresData from '../data/personajesIlustresData';
+import saludos from '../data/saludos';
+import { ModalDos } from '../components/ModalDos';
 
 const Personaje = () => {
 	const router = useRouter();
@@ -18,11 +27,20 @@ const Personaje = () => {
 			});
 		}
 	}, [router.isReady, router.query.personaje]);
+	const [count, setCount] = useState(0);
+	const [estadoModal, setEstadoModal] = useState(false);
+	const [modalData, setModalData] = useState(null);
+
+	const [widthScreen, setWidthScreen] = useState(null);
+
+	useEffect(() => {
+		setWidthScreen(window.innerWidth);
+	}, []);
 
 	return (
 		personaje && (
-			<div className="bg-azulOscuro font-lato pb-24 lg:pb-48">
-				<div className="container mx-auto px-5 lg:px-20 text-blanco pt-20 relative">
+			<div className="text-blanco min-h-screen bg-azulOscuro font-lato pb-24 lg:pb-48">
+				<div className="container mx-auto px-5 lg:px-20 pt-20 relative">
 					<div className="flex flex-col lg:flex-row lg:items-start">
 						<div className="basis-1/2 lg:pr-14 mb-5 lg:mb-0">
 							<div className="relative flex justify-between items-end mb-8">
@@ -78,6 +96,108 @@ const Personaje = () => {
 						</Link>
 					</div>
 				</div>
+				{personaje.imagenesIneditas.length > 0 && (
+					<div className="container mx-auto px-20 relative mt-8">
+						<p className="text-3xl font-semibold mb-8">
+							Fotografías inéditas
+						</p>
+						<Swiper
+							spaceBetween={17}
+							slidesPerView={widthScreen < 460 ? 1 : 4}
+							// centeredSlides={true}
+							loop={true}
+							allowTouchMove={false}>
+							<SwiperButtonPrev
+								setCount={setCount}
+								max={saludos.length - 1}
+							/>
+							{personaje.imagenesIneditas.map((imagen) => {
+								return (
+									<SwiperSlide key={imagen.titulo}>
+										<div
+											className={`relative cursor-pointer`}
+											onClick={() => {
+												setModalData(imagen);
+												setEstadoModal(true);
+											}}>
+											<div
+												className={`mx-auto cursor-pointer h-[23rem] relative`}>
+												<Image
+													alt={imagen.titulo}
+													src={imagen.url}
+													objectFit="cover"
+													layout="fill"
+													quality={100}
+													className="w-full h-full"
+												/>
+												<div className="bg-black/50 opacity-0 hover:opacity-100 font-medium z-10 absolute inset-0 text-center flex items-center text-blanco px-10">
+													<div className="line-clamp-[7]">
+														<p className="text-sm">
+															{imagen.titulo}
+														</p>
+														<div>
+															<p className="mt-3 text-xs">
+																Fuente:&nbsp;
+																{imagen.fuente}
+															</p>
+															<p className="mt-3 text-xs">
+																Compilador:&nbsp;
+																{
+																	imagen.compilador
+																}
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</SwiperSlide>
+								);
+							})}
+							<SwiperButtonNext
+								setCount={setCount}
+								max={saludos.length - 1}
+							/>
+						</Swiper>
+						<ModalDos
+							estado={estadoModal}
+							setEstado={setEstadoModal}>
+							{modalData && (
+								<div className="h-screen grid grid-cols-1 grid-rows-[auto_75%_auto] justify-center content-center">
+									<p className="text-center block mb-4 font-bold">
+										{modalData.titulo}
+									</p>
+									<div
+										className="h-full mx-auto"
+										onClick={(e) => e.stopPropagation()}>
+										<Image
+											alt={modalData.url}
+											src={modalData.url}
+											width={modalData.width}
+											height={modalData.height}
+											draggable={false}
+											layout="raw"
+											className="h-full w-auto"
+											quality={100}
+										/>
+									</div>
+									{modalData.fuente && (
+										<p className="text-center mt-2 px-20 line-clamp-2">
+											Fuente:&nbsp;
+											<span>{modalData.fuente}</span>
+										</p>
+									)}
+									{modalData.compilador && (
+										<p className="text-center text-sm">
+											Compilador:&nbsp;
+											{modalData.compilador}
+										</p>
+									)}
+								</div>
+							)}
+						</ModalDos>
+					</div>
+				)}
 			</div>
 		)
 	);

@@ -8,6 +8,7 @@ const nextConfig = {
 			'https://www.youtube.com',
 		],
 	},
+	experimental: { images: { layoutRaw: true } },
 };
 
 module.exports = nextConfig;
