@@ -1,12 +1,13 @@
 const saludos = [
 	{
 		id: 1,
-		nombre: 'Mario Urbina Schmitt',
-		biodata: 'Paleontólogo e investigador del Museo de Historia Natural',
-		cita: 'San Marcos es una de las instituciones más prestigiosas que tenemos para la ciencia en el Perú',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_urbina_schmitt_unmsm_aniversario_545db1bc82.png?updated_at=2022-04-28T22:35:44.074Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Mario+Urbina+Schmitt.mp4',
+		nombre: 'Dra. Jeri Ramón Ruffner',
+		biodata: 'Rectora de la Universidad Nacional Mayor de San Marcos',
+		cita: 'San Marcos empezó delineando la política de desarrollo del país; delineando incluso la parte social, la parte cultural, la parte de la salud y la parte de la educación. Si San Marcos hizo parte de la historia, hoy nosotros también debemos decir que tenemos que seguir en esa línea en un desarrollo sostenible de la educación para hoy y para mañana, pensando en los jóvenes del futuro',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jeri_ramon_ruffner_unmsm_aniversario_ba540fbd6a.png?updated_at=2022-05-13T18:02:40.428Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Jeri+Ram%C3%B3n+Ruffner.mp4',
 	},
+
 	{
 		id: 2,
 		nombre: 'Ing. Omar del Carpio',
@@ -17,11 +18,12 @@ const saludos = [
 	},
 	{
 		id: 3,
-		nombre: 'Historiador Hugo La Rosa Cordero',
-		biodata: 'Coordinador Archivo y Planoteca de Prolima',
-		cita: 'San Marcos mantiene una continuidad histórica que no se detiene ni con pandemias, ni con crisis política, ni crisis económicas',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_la_rosa_unmsm_aniversario_08363eb43b.png?updated_at=2022-04-28T22:35:43.945Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Historiador+Hugo+La+Rosa+Cordero+-+Egresado+EP+Historia+-+Facultad+de+Ciencias+Sociales.mp4',
+		nombre: 'Dra. Ruth Shady Solis',
+		biodata:
+			'Jefa de la Zona Arqueológica Caral. Catedrática Postgrado Fac. Ciencias Sociales',
+		cita: 'Como sanmarquina he cumplido 53 años de trabajo dentro de la Universidad, y me siento muy contenta de que podamos presentar para el Perú y el mundo los resultados de la investigación que hemos venido realizando en equipo',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_unmsm_aniversario_76c0734d5b.png?updated_at=2022-05-03T16:55:08.526Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Ruth+Shady+Solis.mp4',
 	},
 	{
 		id: 4,
@@ -102,12 +104,11 @@ const saludos = [
 	},
 	{
 		id: 13,
-		nombre: 'Dra. Ruth Shady Solis',
-		biodata:
-			'Jefa de la Zona Arqueológica Caral. Catedrática Postgrado Fac. Ciencias Sociales',
-		cita: 'Como sanmarquina he cumplido 53 años de trabajo dentro de la Universidad, y me siento muy contenta de que podamos presentar para el Perú y el mundo los resultados de la investigación que hemos venido realizando en equipo',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_unmsm_aniversario_76c0734d5b.png?updated_at=2022-05-03T16:55:08.526Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Ruth+Shady+Solis.mp4',
+		nombre: 'Historiador Hugo La Rosa Cordero',
+		biodata: 'Coordinador Archivo y Planoteca de Prolima',
+		cita: 'San Marcos mantiene una continuidad histórica que no se detiene ni con pandemias, ni con crisis política, ni crisis económicas',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_la_rosa_unmsm_aniversario_08363eb43b.png?updated_at=2022-04-28T22:35:43.945Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Historiador+Hugo+La+Rosa+Cordero+-+Egresado+EP+Historia+-+Facultad+de+Ciencias+Sociales.mp4',
 	},
 	{
 		id: 14,
@@ -332,27 +333,28 @@ const saludos = [
 	},
 	{
 		id: 40,
+		nombre: 'Mario Urbina Schmitt',
+		biodata: 'Paleontólogo e investigador del Museo de Historia Natural',
+		cita: 'San Marcos es una de las instituciones más prestigiosas que tenemos para la ciencia en el Perú',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_urbina_schmitt_unmsm_aniversario_545db1bc82.png?updated_at=2022-04-28T22:35:44.074Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Mario+Urbina+Schmitt.mp4',
+	},
+	{
+		id: 41,
 		nombre: 'Dr. Mario Vargas Llosa',
 		biodata: 'Premio Nobel de Literatura 2010. Doctor Honoris Causa UNMSM',
 		cita: 'No me arrepiento nunca, ni me arrepentiré de haber elegido San Marcos como mi Alma Máter. Eran los años de Odría, cuando yo ingresé a San Marcos, y probablemente la Universidad era uno de los focos mayores de resistencia a la dictadura que padecíamos los peruanos(…)',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/mario_vargas_llosa_unmsm_aniversario_197e8cdb54.png?updated_at=2022-05-10T04:38:04.802Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Mario+Vargas+Llosa.mp4',
 	},
+
 	{
-		id: 41,
+		id: 42,
 		nombre: 'Dr. José Niño Montero',
 		biodata: 'Vicerrector de Investigación y Posgrado',
 		cita: 'Este Aniversario nos encuentra trabajando intensamente por lograr la presencialidad en nuestra Universidad(...) y venimos implementando diferentes tareas desde el Vicerrectorado de Investigación. ¡Todos juntos somos San Marcos!, los de ayer, los de hoy y los de siempre.',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jose_nino_montero_unmsm_aniversario_367e038e58.png?updated_at=2022-05-10T04:38:04.414Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Jos%C3%A9+Ni%C3%B1o+Montero.mp4',
-	},
-	{
-		id: 42,
-		nombre: 'Dra. Jeri Ramón Ruffner',
-		biodata: 'Rectora de la Universidad Nacional Mayor de San Marcos',
-		cita: 'San Marcos empezó delineando la política de desarrollo del país; delineando incluso la parte social, la parte cultural, la parte de la salud y la parte de la educación. Si San Marcos hizo parte de la historia, hoy nosotros también debemos decir que tenemos que seguir en esa línea en un desarrollo sostenible de la educación para hoy y para mañana, pensando en los jóvenes del futuro',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jeri_ramon_ruffner_unmsm_aniversario_ba540fbd6a.png?updated_at=2022-05-13T18:02:40.428Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Jeri+Ram%C3%B3n+Ruffner.mp4',
 	},
 ];
 
