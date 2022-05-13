@@ -10,7 +10,7 @@ const personajesIlustresData = [
 		imagenGrande:
 			'https://biologia-unmsm.s3.us-east-2.amazonaws.com/carrion_grande_e0d3747480.png?updated_at=2022-04-29T15:57:00.123Z',
 		introduccion:
-			'Nacida en Lima, el 10 de junio de 1918, la destacada historiadora y abogada fue la primera en ocupar una cátedra universitaria en el Perú, además de inaugurar la participación de la mujer en la Academia Nacional de Historia, en la junta directiva del Colegio de Abogados de Lima y en la Corte Superior de Lima.',
+			'Reconocido como héroe y mártir de la medicina peruana, el joven nacido el 13 de agosto de 1857, en Cerro de Pasco, fue un estudiante de la Facultad de Medicina “San Fernando”, además de estudiante externo del Hospital Francés (hoy Clínica Maison de Santé), e interno de los hospitales nacionales Dos de Mayo y San Bartolomé.',
 		seleccionado: false,
 		videoSaludo: '',
 		imgContenido:
