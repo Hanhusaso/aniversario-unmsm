@@ -7,23 +7,22 @@ const saludos = [
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/jeri_ramon_ruffner_unmsm_aniversario_ba540fbd6a.png?updated_at=2022-05-13T18:02:40.428Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Jeri+Ram%C3%B3n+Ruffner.mp4',
 	},
-
 	{
 		id: 2,
-		nombre: 'Ing. Omar del Carpio',
-		biodata: 'Director Ejecutuivo de la Red IDI',
-		cita: 'La UNMSM es una institución líder en investigación, desarrollo e innovación',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/omar_del_carpio_unmsm_aniversario_3216fbe425.png?updated_at=2022-04-28T22:35:45.172Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Ing.+Omar+Del+Carpio+Rodr%C3%ADguez+-+Director+Ejecutivo+de+la+Red+Idi.mp4',
-	},
-	{
-		id: 3,
 		nombre: 'Dra. Ruth Shady Solis',
 		biodata:
 			'Jefa de la Zona Arqueológica Caral. Catedrática Postgrado Fac. Ciencias Sociales',
 		cita: 'Como sanmarquina he cumplido 53 años de trabajo dentro de la Universidad, y me siento muy contenta de que podamos presentar para el Perú y el mundo los resultados de la investigación que hemos venido realizando en equipo',
 		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/ruth_shady_unmsm_aniversario_76c0734d5b.png?updated_at=2022-05-03T16:55:08.526Z',
 		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dra.+Ruth+Shady+Solis.mp4',
+	},
+	{
+		id: 3,
+		nombre: 'Dr. Hugo Oscar Juri',
+		biodata: 'Rector de la Universidad Nacional de Córdoba - Argentina',
+		cita: 'Es un placer participar, aunque sea de manera virtual, de esta ceremonia que por primera vez en la historia, de esta la más antigua de la Universidades de América tiene una Rectora mujer; lo cual es un orgullo para todos nosotros, los latinoamericanos',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_oscar_juri_unmsm_aniversario_4084aa2cea.png?updated_at=2022-05-10T04:38:03.225Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Hugo+Oscar+Juri.mp4',
 	},
 	{
 		id: 4,
@@ -259,11 +258,11 @@ const saludos = [
 	},
 	{
 		id: 31,
-		nombre: 'Dr. Hugo Oscar Juri',
-		biodata: 'Rector de la Universidad Nacional de Córdoba - Argentina',
-		cita: 'Es un placer participar, aunque sea de manera virtual, de esta ceremonia que por primera vez en la historia, de esta la más antigua de la Universidades de América tiene una Rectora mujer; lo cual es un orgullo para todos nosotros, los latinoamericanos',
-		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/hugo_oscar_juri_unmsm_aniversario_4084aa2cea.png?updated_at=2022-05-10T04:38:03.225Z',
-		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Dr.+Hugo+Oscar+Juri.mp4',
+		nombre: 'Ing. Omar del Carpio',
+		biodata: 'Director Ejecutuivo de la Red IDI',
+		cita: 'La UNMSM es una institución líder en investigación, desarrollo e innovación',
+		img: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/omar_del_carpio_unmsm_aniversario_3216fbe425.png?updated_at=2022-04-28T22:35:45.172Z',
+		video: 'https://biologia-unmsm.s3.us-east-2.amazonaws.com/videos/Ing.+Omar+Del+Carpio+Rodr%C3%ADguez+-+Director+Ejecutivo+de+la+Red+Idi.mp4',
 	},
 	{
 		id: 32,
